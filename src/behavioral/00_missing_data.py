@@ -7,9 +7,10 @@ import matplotlib.transforms as mtransforms
 import matplotlib
 
 ######################### Pepare paths #######################################
-path = '/u/68/trianaa1/unix/trianaa1/protocol/data/pilot_i/sensors' #'/u/68/trianaa1/unix/Documents/longitudinal_pilot/data/sub-01/smartphone'
-begin = '2020-07-06' #'2021-08-02'
-end = '2020-07-20' #'2021-09-07'
+#path = '/u/68/trianaa1/unix/trianaa1/protocol/data/pilot_i/sensors'
+path = '/u/68/trianaa1/unix/trianaa1/protocol/data/pilot_iii/sensors'
+begin = '2021-08-02' #'2020-07-06'
+end = '2021-09-07' #'2020-07-20'
 
 ######################### Helper functions ###################################
 def find_missing(df):
@@ -22,7 +23,10 @@ def find_missing_percent(df):
 def highlight_datetimes(indices, ax):
     i = 0
     while i < len(indices):
-        ax.axvspan(df.index[indices[i]-1], df.index[indices[i] + 1], facecolor='tomato', edgecolor='none')
+        if indices[i] == 0:
+            ax.axvspan(df.index[indices[i]], df.index[indices[i] + 1], facecolor='tomato', edgecolor='none')
+        else:
+            ax.axvspan(df.index[indices[i]-1], df.index[indices[i] + 1], facecolor='tomato', edgecolor='none')
         i += 1
 
 def create_linbins(start, end, n_bins):
@@ -126,6 +130,6 @@ axes[6].set_xlabel('dates (DD-MM)')
 fig.align_ylabels(axes)
 fig.tight_layout()
 plt.show()
-plt.savefig('/u/68/trianaa1/unix/trianaa1/protocol/results/pilot_i/sensor_missing.pdf')
+plt.savefig('/u/68/trianaa1/unix/trianaa1/protocol/results/pilot_iii/sensor_missing.pdf')
 
 ##############################################################################
