@@ -19,16 +19,16 @@ for dirpath, dirnames, filenames in os.walk("."):
 files.sort()
 
 
-cols = ["onset", "duration", "response"]
+cols = ["Onset", "Duration", "Stim"]
 for file in files:
     pvt = pd.read_csv(file, sep="\t", header=[0])
     ses = file.split('/')[1] 
     pvt.columns = cols
-    pvt["onset"] = pvt["onset"]/1000 # Put everything in terms of sec
-    pvt["duration"] = pvt["duration"]/1000
-    pvt[pvt["duration"] < 0] = 0.1 #Set lapses to very short periods, but not negative
+    pvt["Onset"] = pvt["Onset"]/1000 # Put everything in terms of sec
+    pvt["Duration"] = pvt["Duration"]/1000
+    pvt[pvt["Duration"] < 0] = 0.1 #Set lapses to very short periods, but not negative
     pvt_path = os.path.join(savepath, ses, "func", f'sub-01_{ses}_task-pvt_acq-highfreq_run-1_events.tsv')
-    pvt.to_csv(pvt_path, sep='\t')
+    pvt.to_csv(pvt_path, sep='\t', index=False)
     print(file)
 
 ################## Generate the events.tsv file n-back #######################
@@ -56,11 +56,11 @@ for file in files:
     for i in range(len(block_init_ids)):
         data[i,0] = float(nback["Time"][block_init_ids[i]])/10000
         data[i,1] = (float(nback["Time"][block_end_ids[i]]) - float(nback["Time"][block_init_ids[i]]))/10000
-    block = pd.DataFrame(data=data, index=list(range(0,len(data))), columns=["onset", "duration"])
+    block = pd.DataFrame(data=data, index=list(range(0,len(data))), columns=["Onset", "Duration"])
     block_type = ["one", "two", "one", "two", "one", "two", "one", "two"]
-    block = block.assign(block_type=block_type) 
+    block = block.assign(Stim=block_type) 
     block_path = os.path.join(savepath, ses, "func", f'sub-01_{ses}_task-nback_acq-highfreq_run-1_blocks.tsv')
-    block.to_csv(block_path, sep='\t')
+    block.to_csv(block_path, sep='\t', index=False)
 
     
     #Make the events design
@@ -74,10 +74,10 @@ for file in files:
     for i in range(len(event_init_ids)):
         data[i,0] = float(nback["Time"][event_init_ids[i]])/10000
         data[i,1] = (float(nback["Time"][event_end_ids[i]]) - float(nback["Time"][event_init_ids[i]]))/10000
-    event = pd.DataFrame(data=data, index=list(range(0,len(data))), columns=["onset", "duration"])
+    event = pd.DataFrame(data=data, index=list(range(0,len(data))), columns=["Onset", "Duration"])
     event_type = [elem for elem in block_type for i in range(20)]
-    event = event.assign(event_type=event_type) 
+    event = event.assign(Stim=event_type) 
     event_path = os.path.join(savepath, ses, "func", f'sub-01_{ses}_task-nback_acq-highfreq_run-1_events.tsv')
-    event.to_csv(event_path, sep='\t')
+    event.to_csv(event_path, sep='\t', index=False)
     
     print(file)
