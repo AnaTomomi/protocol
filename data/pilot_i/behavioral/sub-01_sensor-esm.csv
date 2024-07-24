@@ -1,0 +1,1218 @@
+time,id,answer,title
+1593932470.915,am_01,Yes,Did you sleep well?
+1593932475.153,am_02,No,Did you have bad dreams?
+1593932477.248,am_03,Yes,Do you feel well-rested?
+1593932479.052,am_04,4,Right now I feel Active
+1593932481.13,am_05,4,Right now I feel Determined
+1593932482.625,am_06,4,Right now I feel Attentive
+1593932484.605,am_07,4,Right now I feel Inspired
+1593932487.287,am_08,3,Right now I feel Alert
+1593932488.38,am_09,1,Right now I feel Afraid
+1593932489.431,am_10,1,Right now I feel Nervous
+1593932491.07,am_11,1,Right now I feel Upset
+1593932492.038,am_12,1,Right now I feel Hostile
+1593932493.096,am_13,1,Right now I feel Ashamed
+1593932494.192,am_14,1,Right now I feel Stressed
+1593932496.906,am_15,1,Right now I feel Distracted
+1593938543.767,dq_01,4,Right now I feel Active
+1593938545.58,dq_02,4,Right now I feel Determined
+1593938547.153,dq_03,4,Right now I feel Attentive
+1593938554,dq_04,4,Right now I feel Inspired
+1593938555.333,dq_05,3,Right now I feel Alert
+1593938556.723,dq_06,1,Right now I feel Afraid
+1593938557.59,dq_07,1,Right now I feel Nervous
+1593938558.493,dq_08,1,Right now I feel Upset
+1593938559.694,dq_09,1,Right now I feel Hostile
+1593938561.332,dq_10,1,Right now I feel Ashamed
+1593938563.161,dq_11,1,Right now I feel Stressed
+1593938564.403,dq_12,1,Right now I feel Distracted
+1593938568.069,dq_13,No,I have had social interactions
+1593938571.188,dq_14,No,I have had a difficult time to complete my tasks
+1593938572.324,dq_15,,Have you had any remarkable events?
+1593953454.189,dq_01,5,Right now I feel Active
+1593953456.849,dq_02,5,Right now I feel Determined
+1593953459.936,dq_03,4,Right now I feel Attentive
+1593953467.39,dq_04,3,Right now I feel Inspired
+1593953470.029,dq_05,4,Right now I feel Alert
+1593953471.329,dq_06,1,Right now I feel Afraid
+1593953472.454,dq_07,1,Right now I feel Nervous
+1593953473.498,dq_08,1,Right now I feel Upset
+1593953475.187,dq_09,1,Right now I feel Hostile
+1593953497.516,dq_10,1,Right now I feel Ashamed
+1593953501.326,dq_11,1,Right now I feel Stressed
+1593953503.012,dq_12,1,Right now I feel Distracted
+1593953505.37,dq_13,Pleasant,I have had social interactions
+1593953522.286,dq_14,No,I have had a difficult time to complete my tasks
+1593953523.206,dq_15,,Have you had any remarkable events?
+1593965361.054,dq_01,3,Right now I feel Active
+1593965361.89,dq_02,3,Right now I feel Determined
+1593965362.706,dq_03,3,Right now I feel Attentive
+1593965365.451,dq_04,2,Right now I feel Inspired
+1593965368.236,dq_05,2,Right now I feel Alert
+1593965369.776,dq_06,1,Right now I feel Afraid
+1593965370.563,dq_07,1,Right now I feel Nervous
+1593965371.621,dq_08,1,Right now I feel Upset
+1593965373.054,dq_09,1,Right now I feel Hostile
+1593965373.964,dq_10,1,Right now I feel Ashamed
+1593965375.026,dq_11,1,Right now I feel Stressed
+1593965378.221,dq_12,2,Right now I feel Distracted
+1593965379.758,dq_13,Pleasant,I have had social interactions
+1593965381.314,dq_14,No,I have had a difficult time to complete my tasks
+1593965382.151,dq_15,,Have you had any remarkable events?
+1593982633.786,pm_01,"Yes. Written text, Yes. Video meeting, Yes. In person","Today, I have been in touch with other people"
+1593982636.112,pm_02,0,Have you consumed any glasses/shots/pints of alcohol today?
+1593982638.01,pm_03,0,Have you consumed any cups of coffee/tea today?
+1593982643.909,pm_04,No,Have you used any intoxicating substances today?
+1593982648.793,pm_05,More than 1.5 hours,Have you exercised today?
+1593982652.758,pm_06,2,Right now I feel Active
+1593982656.995,pm_07,2,Right now I feel Determined
+1593982660.406,pm_08,3,Right now I feel Attentive
+1593982666.07,pm_09,2,Right now I feel Inspired
+1593982669.676,pm_10,1,Right now I feel Alert
+1593982671.664,pm_11,1,Right now I feel Afraid
+1593982673.253,pm_12,1,Right now I feel Nervous
+1593982675.015,pm_13,1,Right now I feel Upset
+1593982676.77,pm_14,1,Right now I feel Hostile
+1593982680.231,pm_15,1,Right now I feel Ashamed
+1593982682.447,pm_16,1,Right now I feel Stressed
+1593982684.566,pm_17,1,Right now I feel Distracted
+1594020673.718,am_01,Yes,Did you sleep well?
+1594020675.567,am_02,No,Did you have bad dreams?
+1594020677.054,am_03,Yes,Do you feel well-rested?
+1594020679.554,am_04,4,Right now I feel Active
+1594020681.426,am_05,5,Right now I feel Determined
+1594020683.403,am_06,4,Right now I feel Attentive
+1594020686.054,am_07,3,Right now I feel Inspired
+1594020690.706,am_08,4,Right now I feel Alert
+1594020692.503,am_09,1,Right now I feel Afraid
+1594020694.192,am_10,2,Right now I feel Nervous
+1594020695.566,am_11,1,Right now I feel Upset
+1594020696.998,am_12,1,Right now I feel Hostile
+1594020698.346,am_13,1,Right now I feel Ashamed
+1594020699.655,am_14,1,Right now I feel Stressed
+1594020702.496,am_15,1,Right now I feel Distracted
+1594021783.5,dq_01,4,Right now I feel Active
+1594021785.12,dq_02,4,Right now I feel Determined
+1594021786.526,dq_03,4,Right now I feel Attentive
+1594021788.272,dq_04,4,Right now I feel Inspired
+1594021789.754,dq_05,4,Right now I feel Alert
+1594021791.311,dq_06,1,Right now I feel Afraid
+1594021792.377,dq_07,1,Right now I feel Nervous
+1594021793.422,dq_08,1,Right now I feel Upset
+1594021794.546,dq_09,1,Right now I feel Hostile
+1594021796.193,dq_10,1,Right now I feel Ashamed
+1594021797.425,dq_11,1,Right now I feel Stressed
+1594021798.8,dq_12,1,Right now I feel Distracted
+1594021801.737,dq_13,No,I have had social interactions
+1594021805.165,dq_14,No,I have had a difficult time to complete my tasks
+1594021805.95,dq_15,,Have you had any remarkable events?
+1594035241.951,dq_01,2,Right now I feel Active
+1594035244.185,dq_02,1,Right now I feel Determined
+1594035245.731,dq_03,1,Right now I feel Attentive
+1594035247.082,dq_04,1,Right now I feel Inspired
+1594035250.069,dq_05,3,Right now I feel Alert
+1594035253.636,dq_06,1,Right now I feel Afraid
+1594035254.993,dq_07,3,Right now I feel Nervous
+1594035257.17,dq_08,1,Right now I feel Upset
+1594035259.397,dq_09,1,Right now I feel Hostile
+1594035261.052,dq_10,1,Right now I feel Ashamed
+1594035263.527,dq_11,4,Right now I feel Stressed
+1594035265.266,dq_12,3,Right now I feel Distracted
+1594035267.5,dq_13,Pleasant,I have had social interactions
+1594035271.053,dq_14,Yes,I have had a difficult time to complete my tasks
+1594035272.046,dq_15,,Have you had any remarkable events?
+1594050644.994,dq_01,3,Right now I feel Active
+1594050646.492,dq_02,3,Right now I feel Determined
+1594050648.8,dq_03,3,Right now I feel Attentive
+1594050651.376,dq_04,2,Right now I feel Inspired
+1594050653.749,dq_05,2,Right now I feel Alert
+1594050655.746,dq_06,1,Right now I feel Afraid
+1594050656.937,dq_07,3,Right now I feel Nervous
+1594050659.678,dq_08,2,Right now I feel Upset
+1594050662.962,dq_09,1,Right now I feel Hostile
+1594050666.139,dq_10,1,Right now I feel Ashamed
+1594050668.267,dq_11,3,Right now I feel Stressed
+1594050670.005,dq_12,3,Right now I feel Distracted
+1594050672.001,dq_13,Pleasant,I have had social interactions
+1594050674.69,dq_14,Yes,I have had a difficult time to complete my tasks
+1594050676.186,dq_15,,Have you had any remarkable events?
+1594065866.328,pm_01,"Yes. Written text, Yes. Video meeting, Yes. In person","Today, I have been in touch with other people"
+1594065869.025,pm_02,0,Have you consumed any glasses/shots/pints of alcohol today?
+1594065870.582,pm_03,0,Have you consumed any cups of coffee/tea today?
+1594065872.709,pm_04,No,Have you used any intoxicating substances today?
+1594065889.77,pm_05,0.5-1.5 hours,Have you exercised today?
+1594065892.055,pm_06,2,Right now I feel Active
+1594065893.796,pm_07,1,Right now I feel Determined
+1594065896.268,pm_08,2,Right now I feel Attentive
+1594065898.039,pm_09,1,Right now I feel Inspired
+1594065900.229,pm_10,1,Right now I feel Alert
+1594065906.044,pm_11,2,Right now I feel Afraid
+1594065907.824,pm_12,3,Right now I feel Nervous
+1594065912.145,pm_13,2,Right now I feel Upset
+1594065914.207,pm_14,1,Right now I feel Hostile
+1594065916.986,pm_15,1,Right now I feel Ashamed
+1594065920.581,pm_16,4,Right now I feel Stressed
+1594065922.25,pm_17,3,Right now I feel Distracted
+1594105438.285,am_01,Yes,Did you sleep well?
+1594105441.266,am_02,No,Did you have bad dreams?
+1594105443.195,am_03,Yes,Do you feel well-rested?
+1594105445.623,am_04,4,Right now I feel Active
+1594105448.039,am_05,4,Right now I feel Determined
+1594105450.219,am_06,4,Right now I feel Attentive
+1594105452.729,am_07,3,Right now I feel Inspired
+1594105458.397,am_08,4,Right now I feel Alert
+1594105460.005,am_09,1,Right now I feel Afraid
+1594105461.678,am_10,2,Right now I feel Nervous
+1594105464.031,am_11,2,Right now I feel Upset
+1594105465.877,am_12,1,Right now I feel Hostile
+1594105468.575,am_13,1,Right now I feel Ashamed
+1594105471.303,am_14,2,Right now I feel Stressed
+1594105473.339,am_15,1,Right now I feel Distracted
+1594110287.044,dq_01,3,Right now I feel Active
+1594110288.481,dq_02,3,Right now I feel Determined
+1594110292.675,dq_03,3,Right now I feel Attentive
+1594110294.66,dq_04,2,Right now I feel Inspired
+1594110296.771,dq_05,3,Right now I feel Alert
+1594110298.451,dq_06,1,Right now I feel Afraid
+1594110299.759,dq_07,1,Right now I feel Nervous
+1594110303.096,dq_08,1,Right now I feel Upset
+1594110305.555,dq_09,1,Right now I feel Hostile
+1594110306.912,dq_10,1,Right now I feel Ashamed
+1594110308.973,dq_11,2,Right now I feel Stressed
+1594110310.795,dq_12,1,Right now I feel Distracted
+1594110314.71,dq_13,Pleasant,I have had social interactions
+1594110317.219,dq_14,No,I have had a difficult time to complete my tasks
+1594110318.454,dq_15,,Have you had any remarkable events?
+1594121862.227,dq_01,4,Right now I feel Active
+1594121863.517,dq_02,4,Right now I feel Determined
+1594121865.677,dq_03,5,Right now I feel Attentive
+1594121867.391,dq_04,4,Right now I feel Inspired
+1594121869.13,dq_05,4,Right now I feel Alert
+1594121870.903,dq_06,1,Right now I feel Afraid
+1594121873.957,dq_07,1,Right now I feel Nervous
+1594121876.254,dq_08,1,Right now I feel Upset
+1594121877.829,dq_09,1,Right now I feel Hostile
+1594121879.471,dq_10,1,Right now I feel Ashamed
+1594121881.234,dq_11,2,Right now I feel Stressed
+1594121883.865,dq_12,1,Right now I feel Distracted
+1594121886.093,dq_13,Pleasant,I have had social interactions
+1594121893.468,dq_14,Yes,I have had a difficult time to complete my tasks
+1594121904.52,dq_15,temporary sickness ,Have you had any remarkable events?
+1594145441.642,dq_01,3,Right now I feel Active
+1594145443.46,dq_02,3,Right now I feel Determined
+1594145447.614,dq_03,3,Right now I feel Attentive
+1594145449.75,dq_04,2,Right now I feel Inspired
+1594145452.109,dq_05,2,Right now I feel Alert
+1594145454.371,dq_06,1,Right now I feel Afraid
+1594145456.413,dq_07,2,Right now I feel Nervous
+1594145460.247,dq_08,1,Right now I feel Upset
+1594145462.406,dq_09,1,Right now I feel Hostile
+1594145464.31,dq_10,1,Right now I feel Ashamed
+1594145466.641,dq_11,1,Right now I feel Stressed
+1594145468.879,dq_12,3,Right now I feel Distracted
+1594145475.945,dq_13,Pleasant,I have had social interactions
+1594145479.454,dq_14,No,I have had a difficult time to complete my tasks
+1594145485.855,dq_15,,Have you had any remarkable events?
+1594152018.185,pm_01,"Yes. Written text, Yes. Video meeting, Yes. In person","Today, I have been in touch with other people"
+1594152021.703,pm_02,0,Have you consumed any glasses/shots/pints of alcohol today?
+1594152023.176,pm_03,0,Have you consumed any cups of coffee/tea today?
+1594152025.059,pm_04,No,Have you used any intoxicating substances today?
+1594152028.101,pm_05,0.5-1.5 hours,Have you exercised today?
+1594152038.384,pm_06,2,Right now I feel Active
+1594152040.281,pm_07,3,Right now I feel Determined
+1594152042.826,pm_08,2,Right now I feel Attentive
+1594152044.703,pm_09,2,Right now I feel Inspired
+1594152047.086,pm_10,2,Right now I feel Alert
+1594152049.595,pm_11,2,Right now I feel Afraid
+1594152052.062,pm_12,2,Right now I feel Nervous
+1594152054.215,pm_13,1,Right now I feel Upset
+1594152056.102,pm_14,1,Right now I feel Hostile
+1594152059.663,pm_15,1,Right now I feel Ashamed
+1594152064.267,pm_16,1,Right now I feel Stressed
+1594152066.719,pm_17,2,Right now I feel Distracted
+1594191817.252,am_01,Yes,Did you sleep well?
+1594191819.545,am_02,No,Did you have bad dreams?
+1594191823.347,am_03,No,Do you feel well-rested?
+1594191826.227,am_04,3,Right now I feel Active
+1594191828.902,am_05,4,Right now I feel Determined
+1594191830.592,am_06,3,Right now I feel Attentive
+1594191832.537,am_07,2,Right now I feel Inspired
+1594191836.029,am_08,3,Right now I feel Alert
+1594191837.777,am_09,1,Right now I feel Afraid
+1594191839.714,am_10,2,Right now I feel Nervous
+1594191841.305,am_11,1,Right now I feel Upset
+1594191842.77,am_12,1,Right now I feel Hostile
+1594191844.113,am_13,1,Right now I feel Ashamed
+1594191845.733,am_14,2,Right now I feel Stressed
+1594191848.747,am_15,2,Right now I feel Distracted
+1594200208.169,dq_01,4,Right now I feel Active
+1594200209.517,dq_02,5,Right now I feel Determined
+1594200211.255,dq_03,5,Right now I feel Attentive
+1594200213.012,dq_04,3,Right now I feel Inspired
+1594200214.781,dq_05,4,Right now I feel Alert
+1594200217.744,dq_06,1,Right now I feel Afraid
+1594200220.012,dq_07,2,Right now I feel Nervous
+1594200221.665,dq_08,1,Right now I feel Upset
+1594200223.659,dq_09,1,Right now I feel Hostile
+1594200225,dq_10,1,Right now I feel Ashamed
+1594200227.341,dq_11,3,Right now I feel Stressed
+1594200229.378,dq_12,1,Right now I feel Distracted
+1594200237.576,dq_13,Pleasant,I have had social interactions
+1594200239.784,dq_14,No,I have had a difficult time to complete my tasks
+1594200240.678,dq_15,,Have you had any remarkable events?
+1594214116.69,dq_01,4,Right now I feel Active
+1594214118.975,dq_02,3,Right now I feel Determined
+1594214121.053,dq_03,4,Right now I feel Attentive
+1594214123.141,dq_04,4,Right now I feel Inspired
+1594214125.939,dq_05,4,Right now I feel Alert
+1594214128.889,dq_06,2,Right now I feel Afraid
+1594214130.796,dq_07,2,Right now I feel Nervous
+1594214135.845,dq_08,1,Right now I feel Upset
+1594214138.687,dq_09,1,Right now I feel Hostile
+1594214140.566,dq_10,1,Right now I feel Ashamed
+1594214143.226,dq_11,3,Right now I feel Stressed
+1594214145.179,dq_12,3,Right now I feel Distracted
+1594214147.325,dq_13,Pleasant,I have had social interactions
+1594214150.852,dq_14,Yes,I have had a difficult time to complete my tasks
+1594214151.946,dq_15,,Have you had any remarkable events?
+1594228781.836,dq_01,3,Right now I feel Active
+1594228786.347,dq_02,3,Right now I feel Determined
+1594228844.598,dq_03,4,Right now I feel Attentive
+1594228846.313,dq_04,3,Right now I feel Inspired
+1594228848.045,dq_05,3,Right now I feel Alert
+1594228849.465,dq_06,1,Right now I feel Afraid
+1594228850.651,dq_07,1,Right now I feel Nervous
+1594228851.751,dq_08,1,Right now I feel Upset
+1594228853.572,dq_09,1,Right now I feel Hostile
+1594228854.625,dq_10,1,Right now I feel Ashamed
+1594228856.023,dq_11,1,Right now I feel Stressed
+1594228858.25,dq_12,3,Right now I feel Distracted
+1594228859.813,dq_13,Pleasant,I have had social interactions
+1594228862.296,dq_14,No,I have had a difficult time to complete my tasks
+1594228863.324,dq_15,,Have you had any remarkable events?
+1594239250.205,pm_01,"Yes. Written text, Yes. Video meeting, Yes. In person","Today, I have been in touch with other people"
+1594239252.113,pm_02,0,Have you consumed any glasses/shots/pints of alcohol today?
+1594239253.307,pm_03,0,Have you consumed any cups of coffee/tea today?
+1594239254.518,pm_04,No,Have you used any intoxicating substances today?
+1594239257.012,pm_05,0.5-1.5 hours,Have you exercised today?
+1594239258.732,pm_06,3,Right now I feel Active
+1594239259.385,pm_07,3,Right now I feel Determined
+1594239260.055,pm_08,3,Right now I feel Attentive
+1594239262.305,pm_09,2,Right now I feel Inspired
+1594239264.543,pm_10,3,Right now I feel Alert
+1594239266.661,pm_11,1,Right now I feel Afraid
+1594239268.4,pm_12,1,Right now I feel Nervous
+1594239269.792,pm_13,1,Right now I feel Upset
+1594239270.918,pm_14,1,Right now I feel Hostile
+1594239271.92,pm_15,1,Right now I feel Ashamed
+1594239274.447,pm_16,2,Right now I feel Stressed
+1594239276.626,pm_17,1,Right now I feel Distracted
+1594278021.256,am_01,Yes,Did you sleep well?
+1594278022.793,am_02,No,Did you have bad dreams?
+1594278024.592,am_03,No,Do you feel well-rested?
+1594278026.616,am_04,4,Right now I feel Active
+1594278027.776,am_05,3,Right now I feel Determined
+1594278029.201,am_06,4,Right now I feel Attentive
+1594278031.137,am_07,3,Right now I feel Inspired
+1594278032.803,am_08,4,Right now I feel Alert
+1594278034.49,am_09,1,Right now I feel Afraid
+1594278035.65,am_10,2,Right now I feel Nervous
+1594278036.735,am_11,1,Right now I feel Upset
+1594278037.769,am_12,1,Right now I feel Hostile
+1594278038.762,am_13,1,Right now I feel Ashamed
+1594278040.667,am_14,2,Right now I feel Stressed
+1594278042.256,am_15,1,Right now I feel Distracted
+1594287059.006,dq_01,4,Right now I feel Active
+1594287062.374,dq_02,5,Right now I feel Determined
+1594287065.721,dq_03,4,Right now I feel Attentive
+1594287067.782,dq_04,3,Right now I feel Inspired
+1594287069.289,dq_05,3,Right now I feel Alert
+1594287070.68,dq_06,1,Right now I feel Afraid
+1594287071.865,dq_07,1,Right now I feel Nervous
+1594287073.818,dq_08,1,Right now I feel Upset
+1594287075.002,dq_09,1,Right now I feel Hostile
+1594287076.17,dq_10,1,Right now I feel Ashamed
+1594287078.744,dq_11,2,Right now I feel Stressed
+1594287080.666,dq_12,1,Right now I feel Distracted
+1594287083.091,dq_13,No,I have had social interactions
+1594287086.453,dq_14,No,I have had a difficult time to complete my tasks
+1594287087.671,dq_15,,Have you had any remarkable events?
+1594310562.619,dq_01,4,Right now I feel Active
+1594310563.72,dq_02,3,Right now I feel Determined
+1594310564.374,dq_03,3,Right now I feel Attentive
+1594310566.054,dq_04,4,Right now I feel Inspired
+1594310567.445,dq_05,4,Right now I feel Alert
+1594310569.143,dq_06,1,Right now I feel Afraid
+1594310571.873,dq_07,2,Right now I feel Nervous
+1594310572.884,dq_08,1,Right now I feel Upset
+1594310573.959,dq_09,1,Right now I feel Hostile
+1594310575.085,dq_10,1,Right now I feel Ashamed
+1594310577.61,dq_11,2,Right now I feel Stressed
+1594310579.232,dq_12,3,Right now I feel Distracted
+1594310581.74,dq_13,Pleasant,I have had social interactions
+1594310583.471,dq_14,No,I have had a difficult time to complete my tasks
+1594310585.135,dq_15,,Have you had any remarkable events?
+1594321879.458,dq_01,2,Right now I feel Active
+1594321881.03,dq_02,2,Right now I feel Determined
+1594321882.769,dq_03,2,Right now I feel Attentive
+1594321884.153,dq_04,2,Right now I feel Inspired
+1594321886.39,dq_05,3,Right now I feel Alert
+1594321888.169,dq_06,1,Right now I feel Afraid
+1594321889.295,dq_07,1,Right now I feel Nervous
+1594321890.431,dq_08,1,Right now I feel Upset
+1594321891.656,dq_09,1,Right now I feel Hostile
+1594321892.907,dq_10,1,Right now I feel Ashamed
+1594321895.979,dq_11,3,Right now I feel Stressed
+1594321899.143,dq_12,3,Right now I feel Distracted
+1594321902.143,dq_13,Pleasant,I have had social interactions
+1594321907.262,dq_14,No,I have had a difficult time to complete my tasks
+1594321908.442,dq_15,,Have you had any remarkable events?
+1594328433.472,pm_01,"Yes. Video meeting, Yes. In person, Yes. Written text","Today, I have been in touch with other people"
+1594328435.203,pm_02,0,Have you consumed any glasses/shots/pints of alcohol today?
+1594328436.734,pm_03,0,Have you consumed any cups of coffee/tea today?
+1594328438.502,pm_04,No,Have you used any intoxicating substances today?
+1594328443.399,pm_05,No,Have you exercised today?
+1594328445.363,pm_06,3,Right now I feel Active
+1594328446.835,pm_07,3,Right now I feel Determined
+1594328448.185,pm_08,3,Right now I feel Attentive
+1594328449.112,pm_09,3,Right now I feel Inspired
+1594328450.38,pm_10,3,Right now I feel Alert
+1594328452.591,pm_11,1,Right now I feel Afraid
+1594328454.058,pm_12,1,Right now I feel Nervous
+1594328455.446,pm_13,2,Right now I feel Upset
+1594328456.946,pm_14,1,Right now I feel Hostile
+1594328458.219,pm_15,1,Right now I feel Ashamed
+1594328461.747,pm_16,2,Right now I feel Stressed
+1594328513.751,pm_17,3,Right now I feel Distracted
+1594366753.92,am_01,Yes,Did you sleep well?
+1594366790.353,am_02,No,Did you have bad dreams?
+1594366838.865,am_03,Yes,Do you feel well-rested?
+1594366845.747,am_04,4,Right now I feel Active
+1594366849.093,am_05,4,Right now I feel Determined
+1594366856.968,am_06,4,Right now I feel Attentive
+1594366858.922,am_07,3,Right now I feel Inspired
+1594366864.078,am_08,4,Right now I feel Alert
+1594366867.354,am_09,1,Right now I feel Afraid
+1594366868.604,am_10,1,Right now I feel Nervous
+1594366870.37,am_11,1,Right now I feel Upset
+1594366871.558,am_12,1,Right now I feel Hostile
+1594366873.545,am_13,1,Right now I feel Ashamed
+1594366875.293,am_14,1,Right now I feel Stressed
+1594366879.047,am_15,1,Right now I feel Distracted
+1594370604.411,dq_01,4,Right now I feel Active
+1594370605.927,dq_02,4,Right now I feel Determined
+1594370609.91,dq_03,4,Right now I feel Attentive
+1594370616.232,dq_04,3,Right now I feel Inspired
+1594370618.251,dq_05,4,Right now I feel Alert
+1594370620.933,dq_06,1,Right now I feel Afraid
+1594370621.894,dq_07,1,Right now I feel Nervous
+1594370622.976,dq_08,1,Right now I feel Upset
+1594370624.064,dq_09,1,Right now I feel Hostile
+1594370625.919,dq_10,1,Right now I feel Ashamed
+1594370627.177,dq_11,1,Right now I feel Stressed
+1594370629.381,dq_12,1,Right now I feel Distracted
+1594370632.486,dq_13,Pleasant,I have had social interactions
+1594370634.201,dq_14,No,I have had a difficult time to complete my tasks
+1594370635.368,dq_15,,Have you had any remarkable events?
+1594385896.772,dq_01,3,Right now I feel Active
+1594385897.671,dq_02,3,Right now I feel Determined
+1594385898.516,dq_03,3,Right now I feel Attentive
+1594385899.866,dq_04,3,Right now I feel Inspired
+1594385901.538,dq_05,3,Right now I feel Alert
+1594385903.508,dq_06,1,Right now I feel Afraid
+1594385906.349,dq_07,1,Right now I feel Nervous
+1594385907.88,dq_08,1,Right now I feel Upset
+1594385909.403,dq_09,1,Right now I feel Hostile
+1594385911.752,dq_10,1,Right now I feel Ashamed
+1594385913.698,dq_11,1,Right now I feel Stressed
+1594385915.843,dq_12,1,Right now I feel Distracted
+1594385919.651,dq_13,No,I have had social interactions
+1594385923.309,dq_14,No,I have had a difficult time to complete my tasks
+1594385924.402,dq_15,,Have you had any remarkable events?
+1594406673.218,dq_01,3,Right now I feel Active
+1594406678.259,dq_02,2,Right now I feel Determined
+1594406680.646,dq_03,2,Right now I feel Attentive
+1594406683.219,dq_04,2,Right now I feel Inspired
+1594406690.666,dq_05,2,Right now I feel Alert
+1594406694.558,dq_06,1,Right now I feel Afraid
+1594406696.148,dq_07,1,Right now I feel Nervous
+1594406697.54,dq_08,1,Right now I feel Upset
+1594406698.798,dq_09,1,Right now I feel Hostile
+1594406700.48,dq_10,1,Right now I feel Ashamed
+1594406705.424,dq_11,2,Right now I feel Stressed
+1594406707.14,dq_12,3,Right now I feel Distracted
+1594406709.68,dq_13,Pleasant,I have had social interactions
+1594406715.342,dq_14,No,I have had a difficult time to complete my tasks
+1594406716.573,dq_15,,Have you had any remarkable events?
+1594411666.562,pm_01,"Yes. Written text, Yes. Video meeting, Yes. In person","Today, I have been in touch with other people"
+1594411668.584,pm_02,0,Have you consumed any glasses/shots/pints of alcohol today?
+1594411670.038,pm_03,0,Have you consumed any cups of coffee/tea today?
+1594411671.865,pm_04,No,Have you used any intoxicating substances today?
+1594411674.165,pm_05,less than half-hour,Have you exercised today?
+1594411677.764,pm_06,3,Right now I feel Active
+1594411679.271,pm_07,2,Right now I feel Determined
+1594411682.565,pm_08,2,Right now I feel Attentive
+1594411684.777,pm_09,2,Right now I feel Inspired
+1594411686.741,pm_10,2,Right now I feel Alert
+1594411688.396,pm_11,1,Right now I feel Afraid
+1594411689.364,pm_12,1,Right now I feel Nervous
+1594411690.184,pm_13,1,Right now I feel Upset
+1594411692.188,pm_14,1,Right now I feel Hostile
+1594411693.188,pm_15,1,Right now I feel Ashamed
+1594411694.505,pm_16,1,Right now I feel Stressed
+1594411695.876,pm_17,1,Right now I feel Distracted
+1594451403.531,am_01,Yes,Did you sleep well?
+1594451405.371,am_02,Yes,Did you have bad dreams?
+1594451407.093,am_03,Yes,Do you feel well-rested?
+1594451409.607,am_04,3,Right now I feel Active
+1594451411.32,am_05,3,Right now I feel Determined
+1594451412.703,am_06,3,Right now I feel Attentive
+1594451414.848,am_07,3,Right now I feel Inspired
+1594451416.477,am_08,3,Right now I feel Alert
+1594451418.132,am_09,1,Right now I feel Afraid
+1594451419.018,am_10,1,Right now I feel Nervous
+1594451419.78,am_11,1,Right now I feel Upset
+1594451420.607,am_12,1,Right now I feel Hostile
+1594451421.403,am_13,1,Right now I feel Ashamed
+1594451422.156,am_14,1,Right now I feel Stressed
+1594451423.216,am_15,1,Right now I feel Distracted
+1594452926.356,dq_01,3,Right now I feel Active
+1594452928.458,dq_02,4,Right now I feel Determined
+1594452930.259,dq_03,4,Right now I feel Attentive
+1594452933.131,dq_04,3,Right now I feel Inspired
+1594452934.811,dq_05,5,Right now I feel Alert
+1594452936.498,dq_06,1,Right now I feel Afraid
+1594452937.748,dq_07,1,Right now I feel Nervous
+1594452938.525,dq_08,1,Right now I feel Upset
+1594452939.817,dq_09,1,Right now I feel Hostile
+1594452941.224,dq_10,1,Right now I feel Ashamed
+1594452942.357,dq_11,1,Right now I feel Stressed
+1594452943.54,dq_12,1,Right now I feel Distracted
+1594452947.546,dq_13,No,I have had social interactions
+1594452949.143,dq_14,No,I have had a difficult time to complete my tasks
+1594452950.277,dq_15,,Have you had any remarkable events?
+1594465785.96,dq_01,4,Right now I feel Active
+1594465787.654,dq_02,5,Right now I feel Determined
+1594465788.771,dq_03,4,Right now I feel Attentive
+1594465791.017,dq_04,4,Right now I feel Inspired
+1594465792.571,dq_05,4,Right now I feel Alert
+1594465794.882,dq_06,1,Right now I feel Afraid
+1594465795.709,dq_07,1,Right now I feel Nervous
+1594465796.52,dq_08,1,Right now I feel Upset
+1594465797.952,dq_09,1,Right now I feel Hostile
+1594465798.962,dq_10,1,Right now I feel Ashamed
+1594465800.279,dq_11,1,Right now I feel Stressed
+1594465803.549,dq_12,2,Right now I feel Distracted
+1594465805.589,dq_13,Pleasant,I have had social interactions
+1594465808.152,dq_14,No,I have had a difficult time to complete my tasks
+1594465808.98,dq_15,,Have you had any remarkable events?
+1594489512.231,dq_01,3,Right now I feel Active
+1594489515.359,dq_02,2,Right now I feel Determined
+1594489517.007,dq_03,3,Right now I feel Attentive
+1594489518.86,dq_04,2,Right now I feel Inspired
+1594489522.578,dq_05,3,Right now I feel Alert
+1594489525.145,dq_06,1,Right now I feel Afraid
+1594489527.09,dq_07,1,Right now I feel Nervous
+1594489528.107,dq_08,1,Right now I feel Upset
+1594489529.068,dq_09,1,Right now I feel Hostile
+1594489530.069,dq_10,1,Right now I feel Ashamed
+1594489531.227,dq_11,1,Right now I feel Stressed
+1594489533.704,dq_12,3,Right now I feel Distracted
+1594489535.743,dq_13,Pleasant,I have had social interactions
+1594489537.73,dq_14,No,I have had a difficult time to complete my tasks
+1594489538.654,dq_15,,Have you had any remarkable events?
+1594503393.084,pm_01,"Yes. Written text, Yes. Video meeting, Yes. In person","Today, I have been in touch with other people"
+1594503395.949,pm_02,1-2,Have you consumed any glasses/shots/pints of alcohol today?
+1594503398.076,pm_03,0,Have you consumed any cups of coffee/tea today?
+1594503400.061,pm_04,No,Have you used any intoxicating substances today?
+1594503402.879,pm_05,No,Have you exercised today?
+1594503405.215,pm_06,2,Right now I feel Active
+1594503407.601,pm_07,2,Right now I feel Determined
+1594503410.325,pm_08,2,Right now I feel Attentive
+1594503411.624,pm_09,2,Right now I feel Inspired
+1594503412.766,pm_10,2,Right now I feel Alert
+1594503414.33,pm_11,1,Right now I feel Afraid
+1594503415.19,pm_12,1,Right now I feel Nervous
+1594503416.088,pm_13,1,Right now I feel Upset
+1594503416.938,pm_14,1,Right now I feel Hostile
+1594503417.897,pm_15,1,Right now I feel Ashamed
+1594503418.968,pm_16,1,Right now I feel Stressed
+1594503421.9,pm_17,2,Right now I feel Distracted
+1594540542.722,am_01,Yes,Did you sleep well?
+1594540545.711,am_02,No,Did you have bad dreams?
+1594540548.541,am_03,No,Do you feel well-rested?
+1594540553.045,am_04,3,Right now I feel Active
+1594540554.556,am_05,3,Right now I feel Determined
+1594540555.974,am_06,3,Right now I feel Attentive
+1594540557.306,am_07,3,Right now I feel Inspired
+1594540558.353,am_08,3,Right now I feel Alert
+1594540561.247,am_09,1,Right now I feel Afraid
+1594540562.612,am_10,1,Right now I feel Nervous
+1594540564.308,am_11,1,Right now I feel Upset
+1594540566.344,am_12,1,Right now I feel Hostile
+1594540569.216,am_13,1,Right now I feel Ashamed
+1594540571.31,am_14,1,Right now I feel Stressed
+1594540573.919,am_15,1,Right now I feel Distracted
+1594542142.907,dq_01,4,Right now I feel Active
+1594542146.863,dq_02,4,Right now I feel Determined
+1594542148.485,dq_03,4,Right now I feel Attentive
+1594542150.363,dq_04,3,Right now I feel Inspired
+1594542152.576,dq_05,4,Right now I feel Alert
+1594542153.668,dq_06,1,Right now I feel Afraid
+1594542154.578,dq_07,1,Right now I feel Nervous
+1594542155.993,dq_08,1,Right now I feel Upset
+1594542156.922,dq_09,1,Right now I feel Hostile
+1594542158.535,dq_10,1,Right now I feel Ashamed
+1594542160.396,dq_11,1,Right now I feel Stressed
+1594542162.458,dq_12,1,Right now I feel Distracted
+1594542164.387,dq_13,Pleasant,I have had social interactions
+1594542166.536,dq_14,No,I have had a difficult time to complete my tasks
+1594542167.855,dq_15,,Have you had any remarkable events?
+1594557563.657,dq_01,4,Right now I feel Active
+1594557565.543,dq_02,1,Right now I feel Determined
+1594557568.218,dq_03,1,Right now I feel Attentive
+1594557569.707,dq_04,1,Right now I feel Inspired
+1594557571.133,dq_05,1,Right now I feel Alert
+1594557573.161,dq_06,1,Right now I feel Afraid
+1594557574.718,dq_07,1,Right now I feel Nervous
+1594557577.689,dq_08,4,Right now I feel Upset
+1594557580.448,dq_09,2,Right now I feel Hostile
+1594557582.94,dq_10,1,Right now I feel Ashamed
+1594557586.443,dq_11,2,Right now I feel Stressed
+1594557588.553,dq_12,4,Right now I feel Distracted
+1594557592.395,dq_13,Unpleasant,I have had social interactions
+1594557595.65,dq_14,No,I have had a difficult time to complete my tasks
+1594557596.735,dq_15,,Have you had any remarkable events?
+1594579752.894,dq_01,3,Right now I feel Active
+1594579754.35,dq_02,3,Right now I feel Determined
+1594579755.26,dq_03,3,Right now I feel Attentive
+1594579756.436,dq_04,3,Right now I feel Inspired
+1594579757.462,dq_05,3,Right now I feel Alert
+1594579759.276,dq_06,1,Right now I feel Afraid
+1594579760.95,dq_07,1,Right now I feel Nervous
+1594579762.555,dq_08,1,Right now I feel Upset
+1594579763.978,dq_09,1,Right now I feel Hostile
+1594579765.35,dq_10,1,Right now I feel Ashamed
+1594579767.778,dq_11,1,Right now I feel Stressed
+1594579769.5,dq_12,1,Right now I feel Distracted
+1594579775.27,dq_13,Pleasant,I have had social interactions
+1594579777.361,dq_14,No,I have had a difficult time to complete my tasks
+1594579778.69,dq_15,,Have you had any remarkable events?
+1594584383.378,pm_01,"Yes. Written text, Yes. Video meeting, Yes. In person","Today, I have been in touch with other people"
+1594584385.682,pm_02,0,Have you consumed any glasses/shots/pints of alcohol today?
+1594584387.223,pm_03,0,Have you consumed any cups of coffee/tea today?
+1594584388.562,pm_04,No,Have you used any intoxicating substances today?
+1594584393.255,pm_05,0.5-1.5 hours,Have you exercised today?
+1594584395.746,pm_06,2,Right now I feel Active
+1594584398.155,pm_07,3,Right now I feel Determined
+1594584401.334,pm_08,1,Right now I feel Attentive
+1594584404.554,pm_09,2,Right now I feel Inspired
+1594584408.345,pm_10,1,Right now I feel Alert
+1594584411.499,pm_11,1,Right now I feel Afraid
+1594584413.055,pm_12,1,Right now I feel Nervous
+1594584415.869,pm_13,2,Right now I feel Upset
+1594584418.667,pm_14,1,Right now I feel Hostile
+1594584420.146,pm_15,1,Right now I feel Ashamed
+1594584421.845,pm_16,1,Right now I feel Stressed
+1594584425.844,pm_17,3,Right now I feel Distracted
+1594626511.389,am_01,,Did you sleep well?
+1594626511.434,am_02,,Did you have bad dreams?
+1594626511.458,am_03,,Do you feel well-rested?
+1594626511.498,am_04,,Right now I feel Active
+1594626511.526,am_05,,Right now I feel Determined
+1594626511.539,am_06,,Right now I feel Attentive
+1594626511.556,am_07,,Right now I feel Inspired
+1594626511.568,am_08,,Right now I feel Alert
+1594626511.579,am_09,,Right now I feel Afraid
+1594626511.592,am_10,,Right now I feel Nervous
+1594626511.604,am_11,,Right now I feel Upset
+1594626511.62,am_12,,Right now I feel Hostile
+1594626511.632,am_13,,Right now I feel Ashamed
+1594626511.646,am_14,,Right now I feel Stressed
+1594626511.662,am_15,,Right now I feel Distracted
+1594629226.428,dq_01,4,Right now I feel Active
+1594629227.885,dq_02,5,Right now I feel Determined
+1594629229.143,dq_03,4,Right now I feel Attentive
+1594629230.219,dq_04,5,Right now I feel Inspired
+1594629231.536,dq_05,4,Right now I feel Alert
+1594629234.143,dq_06,2,Right now I feel Afraid
+1594629235.318,dq_07,2,Right now I feel Nervous
+1594629236.807,dq_08,1,Right now I feel Upset
+1594629237.951,dq_09,1,Right now I feel Hostile
+1594629239.267,dq_10,1,Right now I feel Ashamed
+1594629242.131,dq_11,2,Right now I feel Stressed
+1594629243.828,dq_12,1,Right now I feel Distracted
+1594629245.948,dq_13,Pleasant,I have had social interactions
+1594629248.217,dq_14,No,I have had a difficult time to complete my tasks
+1594629249.351,dq_15,,Have you had any remarkable events?
+1594646154.953,dq_01,1,Right now I feel Active
+1594646157.672,dq_02,2,Right now I feel Determined
+1594646159.165,dq_03,1,Right now I feel Attentive
+1594646162.361,dq_04,2,Right now I feel Inspired
+1594646163.772,dq_05,1,Right now I feel Alert
+1594646165.162,dq_06,1,Right now I feel Afraid
+1594646166.438,dq_07,1,Right now I feel Nervous
+1594646167.323,dq_08,1,Right now I feel Upset
+1594646168.192,dq_09,1,Right now I feel Hostile
+1594646169.077,dq_10,1,Right now I feel Ashamed
+1594646171.006,dq_11,1,Right now I feel Stressed
+1594646181.172,dq_12,2,Right now I feel Distracted
+1594646183.252,dq_13,Pleasant,I have had social interactions
+1594646186.314,dq_14,Yes,I have had a difficult time to complete my tasks
+1594646187.58,dq_15,,Have you had any remarkable events?
+1594666202.749,dq_01,3,Right now I feel Active
+1594666208.366,dq_02,4,Right now I feel Determined
+1594666209.277,dq_03,3,Right now I feel Attentive
+1594666210.972,dq_04,4,Right now I feel Inspired
+1594666212.537,dq_05,4,Right now I feel Alert
+1594666213.861,dq_06,1,Right now I feel Afraid
+1594666215.301,dq_07,1,Right now I feel Nervous
+1594666216.559,dq_08,1,Right now I feel Upset
+1594666218.206,dq_09,1,Right now I feel Hostile
+1594666219.835,dq_10,1,Right now I feel Ashamed
+1594666221.935,dq_11,3,Right now I feel Stressed
+1594666224.803,dq_12,1,Right now I feel Distracted
+1594666226.84,dq_13,Pleasant,I have had social interactions
+1594666229.13,dq_14,No,I have had a difficult time to complete my tasks
+1594666229.989,dq_15,,Have you had any remarkable events?
+1594670452.595,pm_01,"Yes. Video meeting, Yes. In person, Yes. Written text","Today, I have been in touch with other people"
+1594670459.745,pm_02,0,Have you consumed any glasses/shots/pints of alcohol today?
+1594670464.404,pm_03,0,Have you consumed any cups of coffee/tea today?
+1594670466.435,pm_04,No,Have you used any intoxicating substances today?
+1594670469.237,pm_05,0.5-1.5 hours,Have you exercised today?
+1594670471.58,pm_06,3,Right now I feel Active
+1594670472.762,pm_07,4,Right now I feel Determined
+1594670474.782,pm_08,4,Right now I feel Attentive
+1594670475.908,pm_09,3,Right now I feel Inspired
+1594670477.255,pm_10,3,Right now I feel Alert
+1594670478.571,pm_11,1,Right now I feel Afraid
+1594670479.448,pm_12,1,Right now I feel Nervous
+1594670480.466,pm_13,1,Right now I feel Upset
+1594670481.394,pm_14,1,Right now I feel Hostile
+1594670482.619,pm_15,1,Right now I feel Ashamed
+1594670484.032,pm_16,2,Right now I feel Stressed
+1594670485.996,pm_17,1,Right now I feel Distracted
+1594712881.503,am_01,Yes,Did you sleep well?
+1594712883.564,am_02,No,Did you have bad dreams?
+1594712889.701,am_03,Yes,Do you feel well-rested?
+1594712891.961,am_04,4,Right now I feel Active
+1594712893.923,am_05,5,Right now I feel Determined
+1594712895.37,am_06,4,Right now I feel Attentive
+1594712898.545,am_07,5,Right now I feel Inspired
+1594712902.583,am_08,4,Right now I feel Alert
+1594712905.603,am_09,1,Right now I feel Afraid
+1594712906.845,am_10,1,Right now I feel Nervous
+1594712908.086,am_11,1,Right now I feel Upset
+1594712909.377,am_12,1,Right now I feel Hostile
+1594712911.705,am_13,1,Right now I feel Ashamed
+1594712915.379,am_14,2,Right now I feel Stressed
+1594712917.972,am_15,1,Right now I feel Distracted
+1594719137.042,dq_01,4,Right now I feel Active
+1594719138.068,dq_02,5,Right now I feel Determined
+1594719139.31,dq_03,4,Right now I feel Attentive
+1594719140.643,dq_04,4,Right now I feel Inspired
+1594719142.604,dq_05,4,Right now I feel Alert
+1594719144.074,dq_06,1,Right now I feel Afraid
+1594719145.171,dq_07,1,Right now I feel Nervous
+1594719146.148,dq_08,1,Right now I feel Upset
+1594719147.513,dq_09,1,Right now I feel Hostile
+1594719148.888,dq_10,1,Right now I feel Ashamed
+1594719150.014,dq_11,2,Right now I feel Stressed
+1594719151.555,dq_12,1,Right now I feel Distracted
+1594719154.071,dq_13,Pleasant,I have had social interactions
+1594719156.746,dq_14,No,I have had a difficult time to complete my tasks
+1594719157.813,dq_15,,Have you had any remarkable events?
+1594733696.25,dq_01,5,Right now I feel Active
+1594733708.759,dq_02,4,Right now I feel Determined
+1594733710.772,dq_03,4,Right now I feel Attentive
+1594733713.041,dq_04,5,Right now I feel Inspired
+1594733714.365,dq_05,4,Right now I feel Alert
+1594733715.774,dq_06,1,Right now I feel Afraid
+1594733717.115,dq_07,1,Right now I feel Nervous
+1594733719.614,dq_08,1,Right now I feel Upset
+1594733720.674,dq_09,1,Right now I feel Hostile
+1594733721.843,dq_10,1,Right now I feel Ashamed
+1594733723.159,dq_11,1,Right now I feel Stressed
+1594733724.859,dq_12,1,Right now I feel Distracted
+1594733726.929,dq_13,No,I have had social interactions
+1594733728.784,dq_14,No,I have had a difficult time to complete my tasks
+1594733729.811,dq_15,,Have you had any remarkable events?
+1594749930.708,dq_01,3,Right now I feel Active
+1594749934.227,dq_02,3,Right now I feel Determined
+1594749935.895,dq_03,2,Right now I feel Attentive
+1594749939.223,dq_04,2,Right now I feel Inspired
+1594749946.076,dq_05,2,Right now I feel Alert
+1594749948.07,dq_06,1,Right now I feel Afraid
+1594749949.056,dq_07,1,Right now I feel Nervous
+1594749949.983,dq_08,1,Right now I feel Upset
+1594749951.074,dq_09,1,Right now I feel Hostile
+1594749952.374,dq_10,1,Right now I feel Ashamed
+1594749958.018,dq_11,1,Right now I feel Stressed
+1594749959.501,dq_12,1,Right now I feel Distracted
+1594749962.09,dq_13,Pleasant,I have had social interactions
+1594749966.709,dq_14,No,I have had a difficult time to complete my tasks
+1594749967.751,dq_15,,Have you had any remarkable events?
+1594757445.603,pm_01,"Yes. Written text, Yes. Video meeting, Yes. In person","Today, I have been in touch with other people"
+1594757449.708,pm_02,0,Have you consumed any glasses/shots/pints of alcohol today?
+1594758977.057,pm_03,0,Have you consumed any cups of coffee/tea today?
+1594758978.612,pm_04,No,Have you used any intoxicating substances today?
+1594758980.958,pm_05,0.5-1.5 hours,Have you exercised today?
+1594758984.129,pm_06,3,Right now I feel Active
+1594758985.868,pm_07,3,Right now I feel Determined
+1594758986.844,pm_08,3,Right now I feel Attentive
+1594758988.442,pm_09,3,Right now I feel Inspired
+1594758989.85,pm_10,3,Right now I feel Alert
+1594758991.993,pm_11,1,Right now I feel Afraid
+1594758992.903,pm_12,1,Right now I feel Nervous
+1594758994.891,pm_13,1,Right now I feel Upset
+1594758995.85,pm_14,1,Right now I feel Hostile
+1594758996.804,pm_15,1,Right now I feel Ashamed
+1594758998.196,pm_16,1,Right now I feel Stressed
+1594759000.148,pm_17,1,Right now I feel Distracted
+1594796627.368,am_01,Yes,Did you sleep well?
+1594796629.244,am_02,No,Did you have bad dreams?
+1594796631.552,am_03,Yes,Do you feel well-rested?
+1594796633.417,am_04,3,Right now I feel Active
+1594796635.559,am_05,4,Right now I feel Determined
+1594796636.684,am_06,3,Right now I feel Attentive
+1594796638.047,am_07,3,Right now I feel Inspired
+1594796641.069,am_08,4,Right now I feel Alert
+1594796642.858,am_09,1,Right now I feel Afraid
+1594796643.949,am_10,1,Right now I feel Nervous
+1594796648.021,am_11,2,Right now I feel Upset
+1594796648.874,am_12,1,Right now I feel Hostile
+1594796649.842,am_13,1,Right now I feel Ashamed
+1594796652.309,am_14,2,Right now I feel Stressed
+1594796653.592,am_15,1,Right now I feel Distracted
+1594802383.211,dq_01,4,Right now I feel Active
+1594802385.302,dq_02,5,Right now I feel Determined
+1594802388.397,dq_03,4,Right now I feel Attentive
+1594802390.096,dq_04,4,Right now I feel Inspired
+1594802392.783,dq_05,4,Right now I feel Alert
+1594802394.68,dq_06,1,Right now I feel Afraid
+1594802396.699,dq_07,2,Right now I feel Nervous
+1594802397.84,dq_08,1,Right now I feel Upset
+1594802399.108,dq_09,1,Right now I feel Hostile
+1594802400.902,dq_10,1,Right now I feel Ashamed
+1594802402.474,dq_11,1,Right now I feel Stressed
+1594802405.148,dq_12,2,Right now I feel Distracted
+1594802408.912,dq_13,Pleasant,I have had social interactions
+1594802410.976,dq_14,No,I have had a difficult time to complete my tasks
+1594802411.842,dq_15,,Have you had any remarkable events?
+1594815295.621,dq_01,4,Right now I feel Active
+1594815297.671,dq_02,4,Right now I feel Determined
+1594815299.15,dq_03,4,Right now I feel Attentive
+1594815300.412,dq_04,4,Right now I feel Inspired
+1594815302.076,dq_05,4,Right now I feel Alert
+1594815303.318,dq_06,1,Right now I feel Afraid
+1594815304.426,dq_07,1,Right now I feel Nervous
+1594815305.735,dq_08,2,Right now I feel Upset
+1594815306.884,dq_09,1,Right now I feel Hostile
+1594815308.168,dq_10,1,Right now I feel Ashamed
+1594815309.469,dq_11,1,Right now I feel Stressed
+1594815311.489,dq_12,1,Right now I feel Distracted
+1594815317.43,dq_13,Pleasant,I have had social interactions
+1594815320.594,dq_14,No,I have had a difficult time to complete my tasks
+1594815321.857,dq_15,,Have you had any remarkable events?
+1594830222.576,dq_01,4,Right now I feel Active
+1594830225.54,dq_02,5,Right now I feel Determined
+1594830227.774,dq_03,4,Right now I feel Attentive
+1594830230.334,dq_04,3,Right now I feel Inspired
+1594830231.825,dq_05,4,Right now I feel Alert
+1594830234.028,dq_06,1,Right now I feel Afraid
+1594830235.452,dq_07,1,Right now I feel Nervous
+1594830236.726,dq_08,1,Right now I feel Upset
+1594830237.795,dq_09,1,Right now I feel Hostile
+1594830238.857,dq_10,1,Right now I feel Ashamed
+1594830240.042,dq_11,1,Right now I feel Stressed
+1594830241.324,dq_12,1,Right now I feel Distracted
+1594830242.929,dq_13,Pleasant,I have had social interactions
+1594830244.764,dq_14,No,I have had a difficult time to complete my tasks
+1594830245.618,dq_15,,Have you had any remarkable events?
+1594843445.89,pm_01,"Yes. Written text, Yes. Video meeting, Yes. In person","Today, I have been in touch with other people"
+1594843448.441,pm_02,1-2,Have you consumed any glasses/shots/pints of alcohol today?
+1594843450.579,pm_03,0,Have you consumed any cups of coffee/tea today?
+1594843453.197,pm_04,No,Have you used any intoxicating substances today?
+1594843456.454,pm_05,0.5-1.5 hours,Have you exercised today?
+1594843458.525,pm_06,3,Right now I feel Active
+1594843459.834,pm_07,4,Right now I feel Determined
+1594843460.686,pm_08,3,Right now I feel Attentive
+1594843462.375,pm_09,2,Right now I feel Inspired
+1594843463.727,pm_10,3,Right now I feel Alert
+1594843465.449,pm_11,1,Right now I feel Afraid
+1594843467.454,pm_12,2,Right now I feel Nervous
+1594843468.804,pm_13,1,Right now I feel Upset
+1594843470.228,pm_14,1,Right now I feel Hostile
+1594843471.554,pm_15,1,Right now I feel Ashamed
+1594843473.839,pm_16,2,Right now I feel Stressed
+1594843476.291,pm_17,1,Right now I feel Distracted
+1594888111.504,am_01,,Did you sleep well?
+1594888111.547,am_02,,Did you have bad dreams?
+1594888111.571,am_03,,Do you feel well-rested?
+1594888111.59,am_04,,Right now I feel Active
+1594888111.625,am_05,,Right now I feel Determined
+1594888111.646,am_06,,Right now I feel Attentive
+1594888111.659,am_07,,Right now I feel Inspired
+1594888111.67,am_08,,Right now I feel Alert
+1594888111.68,am_09,,Right now I feel Afraid
+1594888111.691,am_10,,Right now I feel Nervous
+1594888111.701,am_11,,Right now I feel Upset
+1594888111.711,am_12,,Right now I feel Hostile
+1594888111.724,am_13,,Right now I feel Ashamed
+1594888111.737,am_14,,Right now I feel Stressed
+1594888111.746,am_15,,Right now I feel Distracted
+1594889344.119,dq_01,2,Right now I feel Active
+1594889346.31,dq_02,1,Right now I feel Determined
+1594889347.872,dq_03,1,Right now I feel Attentive
+1594889349.163,dq_04,1,Right now I feel Inspired
+1594889351.823,dq_05,2,Right now I feel Alert
+1594889353.502,dq_06,1,Right now I feel Afraid
+1594889355.016,dq_07,1,Right now I feel Nervous
+1594889356.472,dq_08,1,Right now I feel Upset
+1594889358.055,dq_09,1,Right now I feel Hostile
+1594889359.495,dq_10,1,Right now I feel Ashamed
+1594889362.915,dq_11,1,Right now I feel Stressed
+1594889365.052,dq_12,3,Right now I feel Distracted
+1594889372.833,dq_13,No,I have had social interactions
+1594889375.944,dq_14,Yes,I have had a difficult time to complete my tasks
+1594889395.711,dq_15,gastritis and worrisome news,Have you had any remarkable events?
+1594901647.396,dq_01,4,Right now I feel Active
+1594901648.441,dq_02,4,Right now I feel Determined
+1594901649.715,dq_03,4,Right now I feel Attentive
+1594901651.049,dq_04,4,Right now I feel Inspired
+1594901652.738,dq_05,4,Right now I feel Alert
+1594901654.608,dq_06,1,Right now I feel Afraid
+1594901657.471,dq_07,2,Right now I feel Nervous
+1594901658.441,dq_08,1,Right now I feel Upset
+1594901660.735,dq_09,1,Right now I feel Hostile
+1594901661.969,dq_10,1,Right now I feel Ashamed
+1594901663.856,dq_11,1,Right now I feel Stressed
+1594901665.309,dq_12,1,Right now I feel Distracted
+1594901668.616,dq_13,Pleasant,I have had social interactions
+1594901674.795,dq_14,No,I have had a difficult time to complete my tasks
+1594901675.776,dq_15,,Have you had any remarkable events?
+1594925093.974,dq_01,4,Right now I feel Active
+1594925095.611,dq_02,3,Right now I feel Determined
+1594925098.161,dq_03,4,Right now I feel Attentive
+1594925103.327,dq_04,3,Right now I feel Inspired
+1594925104.66,dq_05,3,Right now I feel Alert
+1594925106.317,dq_06,1,Right now I feel Afraid
+1594925107.317,dq_07,1,Right now I feel Nervous
+1594925108.186,dq_08,1,Right now I feel Upset
+1594925109.239,dq_09,1,Right now I feel Hostile
+1594925110.298,dq_10,1,Right now I feel Ashamed
+1594925111.495,dq_11,1,Right now I feel Stressed
+1594925113.745,dq_12,2,Right now I feel Distracted
+1594925115.268,dq_13,Pleasant,I have had social interactions
+1594925116.933,dq_14,No,I have had a difficult time to complete my tasks
+1594925117.993,dq_15,,Have you had any remarkable events?
+1594929955.178,pm_01,"Yes. In person, Yes. Video meeting, Yes. Written text","Today, I have been in touch with other people"
+1594929957.546,pm_02,1-2,Have you consumed any glasses/shots/pints of alcohol today?
+1594929959.792,pm_03,0,Have you consumed any cups of coffee/tea today?
+1594929962.324,pm_04,No,Have you used any intoxicating substances today?
+1594929965.933,pm_05,less than half-hour,Have you exercised today?
+1594929968.24,pm_06,3,Right now I feel Active
+1594929969.221,pm_07,3,Right now I feel Determined
+1594929970.975,pm_08,3,Right now I feel Attentive
+1594929973.874,pm_09,3,Right now I feel Inspired
+1594929975.216,pm_10,3,Right now I feel Alert
+1594929976.417,pm_11,1,Right now I feel Afraid
+1594929977.434,pm_12,1,Right now I feel Nervous
+1594929978.329,pm_13,1,Right now I feel Upset
+1594929979.155,pm_14,1,Right now I feel Hostile
+1594929980.042,pm_15,1,Right now I feel Ashamed
+1594929980.92,pm_16,1,Right now I feel Stressed
+1594929982.236,pm_17,1,Right now I feel Distracted
+1594974818.088,am_01,Yes,Did you sleep well?
+1594974819.938,am_02,No,Did you have bad dreams?
+1594974822.063,am_03,No,Do you feel well-rested?
+1594974824.989,am_04,3,Right now I feel Active
+1594974826.655,am_05,3,Right now I feel Determined
+1594974828.742,am_06,2,Right now I feel Attentive
+1594974831.646,am_07,2,Right now I feel Inspired
+1594974833.783,am_08,2,Right now I feel Alert
+1594974835.089,am_09,1,Right now I feel Afraid
+1594974836.233,am_10,1,Right now I feel Nervous
+1594974837.293,am_11,1,Right now I feel Upset
+1594974838.42,am_12,1,Right now I feel Hostile
+1594974839.588,am_13,1,Right now I feel Ashamed
+1594974841.36,am_14,1,Right now I feel Stressed
+1594974843.924,am_15,1,Right now I feel Distracted
+1594977786.387,dq_01,4,Right now I feel Active
+1594977788.358,dq_02,4,Right now I feel Determined
+1594977794.617,dq_03,3,Right now I feel Attentive
+1594977796.083,dq_04,4,Right now I feel Inspired
+1594977797.539,dq_05,4,Right now I feel Alert
+1594977799.639,dq_06,1,Right now I feel Afraid
+1594977800.535,dq_07,1,Right now I feel Nervous
+1594977801.404,dq_08,1,Right now I feel Upset
+1594977802.838,dq_09,1,Right now I feel Hostile
+1594977804.06,dq_10,1,Right now I feel Ashamed
+1594977805.243,dq_11,1,Right now I feel Stressed
+1594977807.711,dq_12,4,Right now I feel Distracted
+1594977809.309,dq_13,Pleasant,I have had social interactions
+1594977811.353,dq_14,Yes,I have had a difficult time to complete my tasks
+1594977812.366,dq_15,,Have you had any remarkable events?
+1594991766.983,dq_01,4,Right now I feel Active
+1594992069.086,dq_02,4,Right now I feel Determined
+1594992070.67,dq_03,4,Right now I feel Attentive
+1594992072.216,dq_04,4,Right now I feel Inspired
+1594992079.705,dq_05,4,Right now I feel Alert
+1594992080.988,dq_06,1,Right now I feel Afraid
+1594992081.806,dq_07,1,Right now I feel Nervous
+1594992082.642,dq_08,1,Right now I feel Upset
+1594992084.151,dq_09,1,Right now I feel Hostile
+1594992085.426,dq_10,1,Right now I feel Ashamed
+1594992086.428,dq_11,1,Right now I feel Stressed
+1594992087.488,dq_12,1,Right now I feel Distracted
+1594992089.226,dq_13,Pleasant,I have had social interactions
+1594992091.661,dq_14,No,I have had a difficult time to complete my tasks
+1594992092.715,dq_15,,Have you had any remarkable events?
+1595012435.829,dq_01,3,Right now I feel Active
+1595012436.862,dq_02,3,Right now I feel Determined
+1595012438.461,dq_03,3,Right now I feel Attentive
+1595012442.827,dq_04,2,Right now I feel Inspired
+1595012445.979,dq_05,2,Right now I feel Alert
+1595012448.365,dq_06,1,Right now I feel Afraid
+1595012449.499,dq_07,1,Right now I feel Nervous
+1595012450.608,dq_08,1,Right now I feel Upset
+1595012451.752,dq_09,1,Right now I feel Hostile
+1595012452.976,dq_10,1,Right now I feel Ashamed
+1595012454.234,dq_11,1,Right now I feel Stressed
+1595012460.206,dq_12,1,Right now I feel Distracted
+1595012465.005,dq_13,No,I have had social interactions
+1595012467.045,dq_14,No,I have had a difficult time to complete my tasks
+1595012469.201,dq_15,,Have you had any remarkable events?
+1595017335.164,pm_01,"Yes. Written text, Yes. Video meeting, Yes. In person","Today, I have been in touch with other people"
+1595017338.929,pm_02,0,Have you consumed any glasses/shots/pints of alcohol today?
+1595017341.546,pm_03,0,Have you consumed any cups of coffee/tea today?
+1595017349.599,pm_04,No,Have you used any intoxicating substances today?
+1595017352.598,pm_05,0.5-1.5 hours,Have you exercised today?
+1595017354.353,pm_06,3,Right now I feel Active
+1595017355.908,pm_07,2,Right now I feel Determined
+1595017357.618,pm_08,2,Right now I feel Attentive
+1595017358.79,pm_09,2,Right now I feel Inspired
+1595017360.495,pm_10,1,Right now I feel Alert
+1595017362.033,pm_11,1,Right now I feel Afraid
+1595017362.827,pm_12,1,Right now I feel Nervous
+1595017363.656,pm_13,1,Right now I feel Upset
+1595017364.483,pm_14,1,Right now I feel Hostile
+1595017365.286,pm_15,1,Right now I feel Ashamed
+1595017366.271,pm_16,1,Right now I feel Stressed
+1595017369.483,pm_17,4,Right now I feel Distracted
+1595063841.479,dq_01,4,Right now I feel Active
+1595063850.359,dq_02,3,Right now I feel Determined
+1595063855.385,dq_03,4,Right now I feel Attentive
+1595063859.701,dq_04,3,Right now I feel Inspired
+1595063870.789,dq_05,4,Right now I feel Alert
+1595063873.511,dq_06,1,Right now I feel Afraid
+1595063874.819,dq_07,1,Right now I feel Nervous
+1595063876.544,dq_08,1,Right now I feel Upset
+1595063877.877,dq_09,1,Right now I feel Hostile
+1595063879.995,dq_10,1,Right now I feel Ashamed
+1595063885.295,dq_11,1,Right now I feel Stressed
+1595063887.369,dq_12,3,Right now I feel Distracted
+1595063890.82,dq_13,Pleasant,I have had social interactions
+1595063892.789,dq_14,No,I have had a difficult time to complete my tasks
+1595063894.078,dq_15,,Have you had any remarkable events?
+1595082351.886,dq_01,4,Right now I feel Active
+1595082356.151,dq_02,4,Right now I feel Determined
+1595082363.326,dq_03,4,Right now I feel Attentive
+1595082367.357,dq_04,3,Right now I feel Inspired
+1595082369.61,dq_05,1,Right now I feel Alert
+1595082371.233,dq_06,1,Right now I feel Afraid
+1595082372.856,dq_07,1,Right now I feel Nervous
+1595082375.506,dq_08,1,Right now I feel Upset
+1595082377.063,dq_09,1,Right now I feel Hostile
+1595082379.953,dq_10,1,Right now I feel Ashamed
+1595082381.393,dq_11,1,Right now I feel Stressed
+1595082383,dq_12,1,Right now I feel Distracted
+1595082401.995,dq_13,Pleasant,I have had social interactions
+1595082403.884,dq_14,No,I have had a difficult time to complete my tasks
+1595082405.015,dq_15,,Have you had any remarkable events?
+1595094141.371,dq_01,3,Right now I feel Active
+1595094142.428,dq_02,3,Right now I feel Determined
+1595094143.471,dq_03,3,Right now I feel Attentive
+1595094144.556,dq_04,3,Right now I feel Inspired
+1595094145.972,dq_05,1,Right now I feel Alert
+1595094147.958,dq_06,1,Right now I feel Afraid
+1595094149.273,dq_07,1,Right now I feel Nervous
+1595094151.003,dq_08,1,Right now I feel Upset
+1595094152.353,dq_09,1,Right now I feel Hostile
+1595094153.729,dq_10,1,Right now I feel Ashamed
+1595094155.758,dq_11,1,Right now I feel Stressed
+1595094157.156,dq_12,1,Right now I feel Distracted
+1595094158.696,dq_13,Pleasant,I have had social interactions
+1595094165.626,dq_14,No,I have had a difficult time to complete my tasks
+1595094166.355,dq_15,,Have you had any remarkable events?
+1595104296.57,pm_01,"Yes. Written text, Yes. In person, Yes. Video meeting","Today, I have been in touch with other people"
+1595104299.104,pm_02,0,Have you consumed any glasses/shots/pints of alcohol today?
+1595104300.374,pm_03,0,Have you consumed any cups of coffee/tea today?
+1595104302.283,pm_04,No,Have you used any intoxicating substances today?
+1595104304.293,pm_05,No,Have you exercised today?
+1595104306.191,pm_06,3,Right now I feel Active
+1595104307.608,pm_07,3,Right now I feel Determined
+1595104308.498,pm_08,3,Right now I feel Attentive
+1595104309.59,pm_09,3,Right now I feel Inspired
+1595104312.328,pm_10,3,Right now I feel Alert
+1595104313.583,pm_11,1,Right now I feel Afraid
+1595104315.016,pm_12,1,Right now I feel Nervous
+1595104316.069,pm_13,1,Right now I feel Upset
+1595104317.121,pm_14,1,Right now I feel Hostile
+1595104318.214,pm_15,1,Right now I feel Ashamed
+1595104319.324,pm_16,1,Right now I feel Stressed
+1595104322.796,pm_17,1,Right now I feel Distracted
+1595145689.326,am_01,No,Did you sleep well?
+1595145691.718,am_02,No,Did you have bad dreams?
+1595145693.911,am_03,No,Do you feel well-rested?
+1595145697.363,am_04,2,Right now I feel Active
+1595145699.954,am_05,2,Right now I feel Determined
+1595145702.057,am_06,2,Right now I feel Attentive
+1595145703.795,am_07,2,Right now I feel Inspired
+1595145706.437,am_08,2,Right now I feel Alert
+1595145708.704,am_09,1,Right now I feel Afraid
+1595145710.375,am_10,1,Right now I feel Nervous
+1595145711.924,am_11,1,Right now I feel Upset
+1595145714.779,am_12,1,Right now I feel Hostile
+1595145716.385,am_13,1,Right now I feel Ashamed
+1595145718.829,am_14,1,Right now I feel Stressed
+1595145723.361,am_15,1,Right now I feel Distracted
+1595149614.412,dq_01,4,Right now I feel Active
+1595149617.086,dq_02,4,Right now I feel Determined
+1595149618.417,dq_03,4,Right now I feel Attentive
+1595149620.155,dq_04,4,Right now I feel Inspired
+1595149625.439,dq_05,4,Right now I feel Alert
+1595149627.385,dq_06,1,Right now I feel Afraid
+1595149628.932,dq_07,2,Right now I feel Nervous
+1595149631.109,dq_08,1,Right now I feel Upset
+1595149633.178,dq_09,1,Right now I feel Hostile
+1595149634.396,dq_10,1,Right now I feel Ashamed
+1595149635.761,dq_11,1,Right now I feel Stressed
+1595149637.31,dq_12,1,Right now I feel Distracted
+1595149644.611,dq_13,Pleasant,I have had social interactions
+1595149647.062,dq_14,No,I have had a difficult time to complete my tasks
+1595149648.057,dq_15,,Have you had any remarkable events?
+1595164420.124,dq_01,5,Right now I feel Active
+1595164422.067,dq_02,4,Right now I feel Determined
+1595164426.367,dq_03,5,Right now I feel Attentive
+1595164427.994,dq_04,3,Right now I feel Inspired
+1595164430.014,dq_05,3,Right now I feel Alert
+1595164431.918,dq_06,1,Right now I feel Afraid
+1595164433.109,dq_07,1,Right now I feel Nervous
+1595164434.459,dq_08,1,Right now I feel Upset
+1595164436.272,dq_09,1,Right now I feel Hostile
+1595164437.446,dq_10,1,Right now I feel Ashamed
+1595164439.377,dq_11,1,Right now I feel Stressed
+1595164442.342,dq_12,1,Right now I feel Distracted
+1595164444.112,dq_13,Pleasant,I have had social interactions
+1595164445.807,dq_14,No,I have had a difficult time to complete my tasks
+1595164446.627,dq_15,,Have you had any remarkable events?
+1595178797.284,dq_01,2,Right now I feel Active
+1595178800.383,dq_02,2,Right now I feel Determined
+1595178802.771,dq_03,2,Right now I feel Attentive
+1595178805.717,dq_04,2,Right now I feel Inspired
+1595178808.655,dq_05,2,Right now I feel Alert
+1595178810.185,dq_06,1,Right now I feel Afraid
+1595178811.434,dq_07,1,Right now I feel Nervous
+1595178812.595,dq_08,1,Right now I feel Upset
+1595178813.678,dq_09,1,Right now I feel Hostile
+1595178814.977,dq_10,1,Right now I feel Ashamed
+1595178818.752,dq_11,1,Right now I feel Stressed
+1595178821.269,dq_12,4,Right now I feel Distracted
+1595178824.32,dq_13,Pleasant,I have had social interactions
+1595178826.838,dq_14,No,I have had a difficult time to complete my tasks
+1595178827.6,dq_15,,Have you had any remarkable events?
+1595195887.05,pm_01,"Yes. Written text, Yes. Video meeting, Yes. In person","Today, I have been in touch with other people"
+1595198462.878,pm_02,0,Have you consumed any glasses/shots/pints of alcohol today?
+1595198464.275,pm_03,0,Have you consumed any cups of coffee/tea today?
+1595198466.329,pm_04,No,Have you used any intoxicating substances today?
+1595198469.466,pm_05,More than 1.5 hours,Have you exercised today?
+1595198472.688,pm_06,2,Right now I feel Active
+1595198474.915,pm_07,2,Right now I feel Determined
+1595198478.275,pm_08,2,Right now I feel Attentive
+1595198481.455,pm_09,1,Right now I feel Inspired
+1595198482.638,pm_10,1,Right now I feel Alert
+1595198483.54,pm_11,1,Right now I feel Afraid
+1595198484.26,pm_12,1,Right now I feel Nervous
+1595198484.944,pm_13,1,Right now I feel Upset
+1595198485.502,pm_14,3,Right now I feel Hostile
+1595198486.594,pm_15,1,Right now I feel Ashamed
+1595198487.573,pm_16,1,Right now I feel Stressed
+1595198488.684,pm_17,1,Right now I feel Distracted
+1595228418.462,am_01,No,Did you sleep well?
+1595228420.499,am_02,No,Did you have bad dreams?
+1595228422.367,am_03,Yes,Do you feel well-rested?
+1595228425.703,am_04,2,Right now I feel Active
+1595228427.362,am_05,3,Right now I feel Determined
+1595228428.769,am_06,3,Right now I feel Attentive
+1595228432.104,am_07,2,Right now I feel Inspired
+1595228437.429,am_08,2,Right now I feel Alert
+1595228440.559,am_09,1,Right now I feel Afraid
+1595228442.257,am_10,1,Right now I feel Nervous
+1595228444.55,am_11,1,Right now I feel Upset
+1595228446.973,am_12,1,Right now I feel Hostile
+1595228448.743,am_13,1,Right now I feel Ashamed
+1595228451.97,am_14,1,Right now I feel Stressed
+1595228454.735,am_15,1,Right now I feel Distracted
+1595249248.985,dq_01,3,Right now I feel Active
+1595249251.248,dq_02,2,Right now I feel Determined
+1595249252.648,dq_03,3,Right now I feel Attentive
+1595249254.345,dq_04,2,Right now I feel Inspired
+1595249256.24,dq_05,3,Right now I feel Alert
+1595249257.888,dq_06,1,Right now I feel Afraid
+1595249260.041,dq_07,2,Right now I feel Nervous
+1595249261.969,dq_08,1,Right now I feel Upset
+1595249263.22,dq_09,1,Right now I feel Hostile
+1595249264.734,dq_10,1,Right now I feel Ashamed
+1595249267.376,dq_11,2,Right now I feel Stressed
+1595249269.189,dq_12,1,Right now I feel Distracted
+1595249271.138,dq_13,Pleasant,I have had social interactions
+1595249273.576,dq_14,Yes,I have had a difficult time to complete my tasks
+1595249274.619,dq_15,,Have you had any remarkable events?
+1595260439.314,dq_01,2,Right now I feel Active
+1595260444.542,dq_02,2,Right now I feel Determined
+1595260447.243,dq_03,2,Right now I feel Attentive
+1595260454.581,dq_04,1,Right now I feel Inspired
+1595260456.768,dq_05,1,Right now I feel Alert
+1595260458.705,dq_06,1,Right now I feel Afraid
+1595260460.602,dq_07,1,Right now I feel Nervous
+1595260462.561,dq_08,1,Right now I feel Upset
+1595260464.415,dq_09,1,Right now I feel Hostile
+1595260467.031,dq_10,1,Right now I feel Ashamed
+1595260469.018,dq_11,1,Right now I feel Stressed
+1595260471.593,dq_12,1,Right now I feel Distracted
+1595260479.389,dq_13,No,I have had social interactions
+1595260483.867,dq_14,Yes,I have had a difficult time to complete my tasks
+1595260505.72,dq_15,on antiinflammatories,Have you had any remarkable events?
+1595271521.118,dq_01,4,Right now I feel Active
+1595271523.574,dq_02,3,Right now I feel Determined
+1595271525.67,dq_03,4,Right now I feel Attentive
+1595271530.729,dq_04,3,Right now I feel Inspired
+1595271532.39,dq_05,3,Right now I feel Alert
+1595271534.559,dq_06,1,Right now I feel Afraid
+1595271535.792,dq_07,1,Right now I feel Nervous
+1595271537.316,dq_08,1,Right now I feel Upset
+1595271539.17,dq_09,1,Right now I feel Hostile
+1595271540.767,dq_10,1,Right now I feel Ashamed
+1595271542.556,dq_11,1,Right now I feel Stressed
+1595271544.195,dq_12,1,Right now I feel Distracted
+1595271547.985,dq_13,Pleasant,I have had social interactions
+1595271551.453,dq_14,No,I have had a difficult time to complete my tasks
+1595271557.698,dq_15,,Have you had any remarkable events?
+1595275261.983,pm_01,"Yes. Written text, Yes. Video meeting, Yes. In person","Today, I have been in touch with other people"
+1595275264.64,pm_02,0,Have you consumed any glasses/shots/pints of alcohol today?
+1595275266.513,pm_03,0,Have you consumed any cups of coffee/tea today?
+1595275269.272,pm_04,No,Have you used any intoxicating substances today?
+1595275277.044,pm_05,No,Have you exercised today?
+1595275279.906,pm_06,3,Right now I feel Active
+1595275280.509,pm_07,3,Right now I feel Determined
+1595275281.088,pm_08,3,Right now I feel Attentive
+1595275282.264,pm_09,3,Right now I feel Inspired
+1595275288.303,pm_10,3,Right now I feel Alert
+1595275290.522,pm_11,1,Right now I feel Afraid
+1595275291.655,pm_12,1,Right now I feel Nervous
+1595275292.757,pm_13,1,Right now I feel Upset
+1595275294.485,pm_14,1,Right now I feel Hostile
+1595275295.784,pm_15,1,Right now I feel Ashamed
+1595275297.397,pm_16,1,Right now I feel Stressed
+1595275300.187,pm_17,2,Right now I feel Distracted

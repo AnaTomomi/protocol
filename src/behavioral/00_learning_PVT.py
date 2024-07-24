@@ -1,20 +1,23 @@
-import numpy as np
+###############################################################################
+# This code generates the Supplementary Figure 2 of the paper "Longitudinal   #
+# single-subject neuroimaging study reveals effects of daily environmental,   #
+# physiological and lifestyle factors on functional brain connectivity"       #
+###############################################################################
+
 import pandas as pd
 import os
 import matplotlib.pyplot as plt
-import matplotlib.transforms as mtransforms
 
 from statsmodels.tsa.stattools import adfuller
 from sklearn.linear_model import LinearRegression
 
 import seaborn as sns
 
-path = "../../data/pilot_i/PVT/"
-savepath = "../../results/pilot_i/"
-os.chdir(path)
+path = "./data/pilot_i/PVT/"
+savepath = "./results/pilot_i/"
 
 files = []
-for file in os.listdir(path):
+for file in os.listdir(os.path.abspath(path)):
     if file.endswith("_pvt_log.txt"): 
         files.append(file)
 files.sort()
@@ -28,7 +31,7 @@ no_lapse_false = [None]*len(files)
 lapse_prob = [None]*len(files)
 
 for file in files:    
-    pvt = pd.read_csv(file, sep="\t", header=[0])
+    pvt = pd.read_csv(os.path.join(path, file), sep="\t", header=[0])
     
     idx = int(file[-14:-12])-1
     
@@ -59,11 +62,8 @@ pvt_results["day"] = pvt_results.index +1
 cols = ['mean_1_RT', 'slow_1_RT', 'median', 'fast', 'no_lapse_false', 
         'lapse_prob','performance']
 
-fig, axes = plt.subplots(nrows=4, ncols=2, sharex=True, figsize=(5,6), dpi=300)
+fig, axes = plt.subplots(nrows=2, ncols=4, sharex=True)
 axes = axes.flatten()
-sns.set_style("darkgrid")
-#sns.set_style("ticks", {'axes.grid' : True, 'grid.linestyle': ':','font.family': ['Arial'], "font.size":"12"})
-sns.set_theme(font="Arial")
 for i, col in enumerate(cols):
     sns.lineplot(data=pvt_results, x="day", y=col, markers=True, dashes=False, ax=axes[i])
 axes[7].set_visible(False)
@@ -94,7 +94,7 @@ axes[5].set_xlabel('day')
 fig.align_ylabels(axes)
 fig.tight_layout()
 
-plt.savefig(savepath+"PVT2.pdf")
+plt.savefig(savepath+"SupplementaryFigure2.pdf")
 
 ################################ Test for stationarity #######################
 

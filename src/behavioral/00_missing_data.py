@@ -1,3 +1,16 @@
+###############################################################################
+# This code generates the missing data plots for behavioral data.             #
+#                                                                             #
+# If plotting data from the first pilot, use the following values:            #
+#   path = './data/pilot_i/behavioral'; begin = '2020-07-06'; end='2020-07-20'#
+#   savepath = './results/pilot_i/SupplementaryFigure3.pdf'                   #
+#                                                                             #
+# If plotting data from the third pilot, use the following values:            #
+#   path ='./data/pilot_iii/behavioral'; begin = '2021-08-02'; end=2021-09-07'#
+#   savepath = './results/pilot_iii/SupplementaryFigure8.pdf'                 #
+#                                                                             #
+###############################################################################    
+
 import pandas as pd
 import numpy as np
 
@@ -7,10 +20,12 @@ import matplotlib.transforms as mtransforms
 import matplotlib
 
 ######################### Pepare paths #######################################
+path = './data/pilot_i/behavioral'
 #path = '/u/68/trianaa1/unix/trianaa1/protocol/data/pilot_i/sensors'
-path = '/u/68/trianaa1/unix/trianaa1/protocol/data/pilot_iii/sensors'
-begin = '2021-08-02' #'2020-07-06'
-end = '2021-09-07' #'2020-07-20'
+#path = '/u/68/trianaa1/unix/trianaa1/protocol/data/pilot_iii/sensors'
+begin = '2020-07-06' #'2021-08-02' 
+end = '2020-07-20' #'2021-09-07' #'2020-07-20'
+savepath = './results/pilot_i/SupplementaryFigure3.pdf'
 
 ######################### Helper functions ###################################
 def find_missing(df):
@@ -37,25 +52,14 @@ def prepare_data(path, begin, end, column):
     data = pd.read_csv(path)
     data["date"] = pd.DatetimeIndex(pd.to_datetime(data["time"], unit='s')).tz_localize('UTC').tz_convert('Europe/Helsinki')
     data.set_index('date', inplace=True)
+    data.sort_index(inplace=True)
     data = data.loc[begin:end]
     data[column] = pd.to_numeric(data[column])
     data = data[[column]].reset_index()
     if 'location' in path:
         data = data.replace(0, np.nan)
     binned = data.resample('1H', on="date").mean()
-    return binned
-
-def prepare_data_nonprocessed(path, begin, end, column):
-    data = pd.read_csv(path)
-    data["date"] = pd.DatetimeIndex(pd.to_datetime(data["time"], unit='s')).tz_localize('UTC').tz_convert('Europe/Helsinki')
-    data.set_index('date', inplace=True)
-    data = data.loc[begin:end]
-    data["data"] = 0
-    data.data[data[column]>0] = 1
-    data = data[["data"]].reset_index()
-    binned = data.resample('1H', on="date").mean()
-    return binned
-    
+    return binned    
 
 def prepare_ESM_data(path, begin, end):
     data = pd.read_csv(path)
@@ -106,30 +110,40 @@ df7.rename(columns={"double_latitude":" location \n data"}, inplace=True)
 dfs = [df1, df2, df3, df4, df5, df6, df7]
 label = ['A.', 'B.', 'C.', 'D.', 'E.', 'F.', 'G.']
 
-#two graphs
+#plot
 fig, axes = plt.subplots(nrows=7, ncols=1, sharex=True, figsize=(9,9))
-form = md.DateFormatter("%d-%m")
-font = {'family' : 'Arial','size': 14}
+font = {'family' : 'Arial', 'size': 14}
 matplotlib.rc('font', **font)
-dates_d = df1.index
+dates_d = df1.index  # Ensure this is the complete date range
 
-for i, df in enumerate(dfs): 
+# Apply the date formatter
+date_formatter = md.DateFormatter('%d-%m')
+for ax in axes:
+    ax.xaxis.set_major_formatter(date_formatter)
+
+for i, df in enumerate(dfs):
     indices = find_missing(df)
     percent = find_missing_percent(df)
     trans = mtransforms.ScaledTranslation(-20/72, 7/72, fig.dpi_scale_trans)
     axes[i].text(0.0, 1.0, label[i], transform=axes[i].transAxes + trans, va='bottom')
-    for v in df.columns.tolist():
-        axes[i].plot(df[v], label=v, color='black', linewidth=2)
+    axes[i].plot(df.index, df[df.columns[0]], label=df.columns[0], color='black', linewidth=2)
     axes[i].set_ylabel(df.columns[0].lower())
     axes[i].set_title(f'missing data={percent}%', loc="right", fontsize=14)
-    axes[i].xaxis.grid(b=True, which='major', color='black', linestyle='--', alpha=1) #add xaxis gridlines
+    axes[i].xaxis.grid(True, which='major', color='black', linestyle='--', alpha=1)
     highlight_datetimes(indices, axes[i])
-axes[0].set_xlim(min(dates_d), max(dates_d))
-axes[0].xaxis.set_major_formatter(form)
+    axes[i].set_xlim(min(dates_d), max(dates_d))
+
+# Explicitly set the x-ticks and x-tick labels to show every other date starting from the first
+selected_dates = dates_d[1::2]   # Select every second date starting from the first
+for ax in axes:
+    ax.set_xticks(selected_dates)
+    ax.set_xticklabels([date.strftime('%d-%m') for date in selected_dates], rotation=45)
+
+
 axes[6].set_xlabel('dates (DD-MM)')
 fig.align_ylabels(axes)
 fig.tight_layout()
 plt.show()
-plt.savefig('/u/68/trianaa1/unix/trianaa1/protocol/results/pilot_iii/sensor_missing.pdf')
+plt.savefig(savepath)
 
 ##############################################################################
