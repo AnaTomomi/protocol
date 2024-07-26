@@ -10,7 +10,7 @@ from sklearn.linear_model import LinearRegression
 
 import matplotlib.transforms as mtransforms
 
-datapath = "./data/pilot_ii/nback/"
+datapath = "./data/pilot_ii/"
 savepath = os.path.abspath('./results/pilot_ii/SupplementaryFigure4.pdf')
 
 def get_dual_data(dfs):
