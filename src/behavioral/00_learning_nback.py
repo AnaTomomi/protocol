@@ -28,9 +28,10 @@ def extract_thresholds(text):
     match = re.search(pattern, text, re.DOTALL)
     if match:
         aud_threshold, vis_threshold = match.groups()
-        return {'auditory': float(aud_threshold), 'visual': float(vis_threshold)}
+        output = {'auditory': float(aud_threshold), 'visual': float(vis_threshold)}
     else:
-        return {'auditory': None, 'visual': None}
+        output = {'auditory': None, 'visual': None}
+    return pd.DataFrame.from_dict(output, orient='index').T
 
 
 def adf(stats, cols):
@@ -113,13 +114,25 @@ for file in os.listdir(datapath):
             d1.append(file)
 d1.sort()
 
-d2back = dict()
+d2back = []
 for f in d2:
     with open(f, 'r') as file:
         text_data = file.read()
-    thresholds = extract_thresholds(text_data)
-    
+    d2back.append(extract_thresholds(text_data))
+d2back = pd.concat(d2back, ignore_index=True)
 
+d1back = []
+for f in d1:
+    with open(f, 'r') as file:
+        text_data = file.read()
+    d1back.append(extract_thresholds(text_data))
+d1back = pd.concat(d1back, ignore_index=True)
+
+#now divide them by auditory and visual d'
+auditory = pd.DataFrame({'1-back': d1back['auditory'], '2-back': d2back['auditory'],   
+                         'days':range(1,15)})
+visual = pd.DataFrame({'1-back': d1back['visual'], '2-back': d2back['visual'],
+                         'days':range(1,15)})
 
 #Get the results
 label = ["A", "B", "C", "D"]
@@ -143,6 +156,16 @@ axes[1].legend(loc='upper right', ncol=3)
 axes[1].set_ylabel('count')
 axes[1].set_ylim([0,60])
 
+axes[2].text(0.0, 1.0, label[2], transform=axes[2].transAxes + trans, va='bottom')
+auditory.plot(x="days",y=["1-back","2-back"], kind="line", style='-o', ax=axes[2])
+axes[2].legend(loc='upper right', ncol=3)
+axes[2].set_ylabel("Task difficulty d'")
+
+axes[3].text(0.0, 1.0, label[3], transform=axes[3].transAxes + trans, va='bottom')
+visual.plot(x="days",y=["1-back","2-back"], kind="line", style='-o', ax=axes[3])
+axes[3].legend(loc='upper right', ncol=3)
+axes[3].set_ylabel("Task difficulty d'")
+
 sns.despine()
 fig.align_ylabels(axes)
 fig.tight_layout()
@@ -152,17 +175,17 @@ plt.savefig('/u/68/trianaa1/unix/trianaa1/protocol/results/pilot_i/nback.pdf')
 cols = list(stats.columns)
 cols.pop(-1)
 print("..........Results for 1-back.........")
-stats = get_dual_data(stim1back)
+stats = get_dual_data(days1back)
 adf(stats, cols)
 
 print("..........Results for 2-back..........")
-stats = get_dual_data(stim2back)
+stats = get_dual_data(days2back)
 adf(stats, cols)    
 ################################# Trend ######################################
 print("..........Results for 1-back.........")
-stats = get_dual_data(stim1back)
+stats = get_dual_data(days1back)
 linear(stats, cols)
 
 print("..........Results for 2-back..........")
-stats = get_dual_data(stim2back)
+stats = get_dual_data(days2back)
 linear(stats, cols)
