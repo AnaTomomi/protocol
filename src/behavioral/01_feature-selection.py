@@ -1,3 +1,11 @@
+###############################################################################
+# This code generates the Supplementary Figure 9 of the paper "Longitudinal   #
+# single-subject neuroimaging study reveals effects of daily environmental,   #
+# physiological and lifestyle factors on functional brain connectivity"       #
+#                                                                             #
+# Data for this Figure is in the ./data/pilot_iii/behavioral folder           #
+###############################################################################
+
 import os
 import pandas as pd
 import numpy as np

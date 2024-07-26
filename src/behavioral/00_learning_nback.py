@@ -1,3 +1,11 @@
+###############################################################################
+# This code generates the Supplementary Figure 4 of the paper "Longitudinal   #
+# single-subject neuroimaging study reveals effects of daily environmental,   #
+# physiological and lifestyle factors on functional brain connectivity"       #
+#                                                                             #
+# This code analyzes responses from the dual n-back task and plots them       #
+###############################################################################
+
 import matplotlib.pyplot as plt
 import matplotlib
 import seaborn as sns
