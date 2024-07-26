@@ -20,12 +20,10 @@ import matplotlib.transforms as mtransforms
 import matplotlib
 
 ######################### Pepare paths #######################################
-path = './data/pilot_i/behavioral'
-#path = '/u/68/trianaa1/unix/trianaa1/protocol/data/pilot_i/sensors'
-#path = '/u/68/trianaa1/unix/trianaa1/protocol/data/pilot_iii/sensors'
-begin = '2020-07-06' #'2021-08-02' 
-end = '2020-07-20' #'2021-09-07' #'2020-07-20'
-savepath = './results/pilot_i/SupplementaryFigure3.pdf'
+path = './data/pilot_iii/behavioral'
+begin = '2021-08-02' 
+end = '2021-09-07' 
+savepath = './results/pilot_iii/SupplementaryFigure8.pdf'
 
 ######################### Helper functions ###################################
 def find_missing(df):

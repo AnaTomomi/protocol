@@ -18,8 +18,6 @@ Modified: 27.12.2021
 
 import os
 import sys
-import glob
-import re
 import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap
 from matplotlib import cm
@@ -30,29 +28,23 @@ import json
 import numpy as np
 import scipy.io
 from scipy import stats
-from scipy.signal import detrend
 
 import warnings
 warnings.filterwarnings("ignore", category=FutureWarning)
 
-from nilearn.image import clean_img, smooth_img
-from nilearn.plotting import plot_stat_map, plot_carpet, plot_glass_brain
+from nilearn.plotting import plot_carpet, plot_glass_brain
 from nilearn.masking import apply_mask
 
-import nibabel as nib
-
-sys.path.append('/m/cs/scratch/networks-pm/Longitudinal/src/fmri_func/preprocessing')
-from step5_denoise import get_confounds, compute_r2_maps, vector2brain
+sys.path.append(os.path.abspath('./src/fmri/preprocessing'))
+from step5_denoise import get_confounds, vector2brain
 
 ################################## User input needed ##########################
 # Please modify this part 
-path = '/m/cs/scratch/networks-pm/pilot_prepro/denoise/' 
-conf_path = '/m/cs/scratch/networks-pm/pilot_prepro/fmriprep' 
+path = './data/pilot_iii/fmri' 
 biopacpath = '/m/cs/scratch/networks-pm/Longitudinal/results/pilot/biopac'
-savepath = '/m/cs/scratch/networks-pm/protocol/results/pilot_iii/'
+savepath = './results/pilot_iii/'
 subject = 'sub-01'
 strategies = ['24HMP-8Phys-Spike']
-#strategies = ['24HMP+8Phys','24HMP+8Phys+4GSR','12HMP+aCompCor','12HMP+aCompCor+4GSR','24HMP+8Phys+Spike','24HMP+8Phys+4GSR+Spike','ICA-AROMA+2Phys','ICA-AROMA+2Phys+GSR']
 tr = 0.594
 ###############################################################################
 #No further modifications needed
@@ -61,21 +53,17 @@ tr = 0.594
    2. Run GLM with motion parameters (Friston)
    3. Plot the before and after detrend plots'''
 
-tasks = ['pvt', 'resting', 'movie', 'nback', 'pvt', 'resting', 'movie', 'nback', 'pvt', 'resting', 'movie', 'nback']                                                          
-sessions = ['ses-05', 'ses-05', 'ses-05', 'ses-05', 'ses-06', 'ses-06', 'ses-06', 'ses-06', 'ses-04', 'ses-04', 'ses-04', 'ses-04']
-  
-#task=tasks[-1]
-#session=sessions[-1]
-#strategy =strategies[2]
+tasks = ['nback']                                                          
+sessions = ['ses-02']
 
 for task, session in zip(tasks, sessions):
     for strategy in strategies:                                                                                                
         print(strategy)
-        orig_nii = os.path.join(conf_path, subject, session, 'func',  f'{subject}_{session}_task-{task}_acq-highfreq_run-1_space-MNI152NLin6Asym_res-2_desc-preproc_bold.nii.gz')
+        orig_nii = os.path.join(path, subject, session, 'func',  f'{subject}_{session}_task-{task}_acq-highfreq_run-1_space-MNI152NLin6Asym_res-2_desc-preproc_bold.nii.gz')
         nii = os.path.join(path, subject, session, f'{subject}_{session}_task-{task}_acq-highfreq_run-1_denoised-{strategy}_HPF.nii')
-        mask = os.path.join(conf_path, subject, session, 'func',  f'{subject}_{session}_task-{task}_acq-highfreq_run-1_space-MNI152NLin6Asym_res-2_desc-brain_mask.nii.gz')
-        confounds = pd.read_csv(os.path.join(conf_path, subject, session, 'func', f'{subject}_{session}_task-{task}_acq-highfreq_run-1_desc-confounds_timeseries.tsv'),sep='\t')
-        with open(os.path.join(conf_path, subject, session, 'func', f'{subject}_{session}_task-{task}_acq-highfreq_run-1_desc-confounds_timeseries.json')) as f:
+        mask = os.path.join(path, subject, session, 'func',  f'{subject}_{session}_task-{task}_acq-highfreq_run-1_space-MNI152NLin6Asym_res-2_desc-brain_mask.nii.gz')
+        confounds = pd.read_csv(os.path.join(path, subject, session, 'func', f'{subject}_{session}_task-{task}_acq-highfreq_run-1_desc-confounds_timeseries.tsv'),sep='\t')
+        with open(os.path.join(path, subject, session, 'func', f'{subject}_{session}_task-{task}_acq-highfreq_run-1_desc-confounds_timeseries.json')) as f:
             confounds_json = json.load(f)
         if "ICA" in strategy:
             nii_det = os.path.join(path, subject, session, f'{subject}_{session}_task-{task}_acq-highfreq_run-1_SGdetrend_smoothed.nii')
