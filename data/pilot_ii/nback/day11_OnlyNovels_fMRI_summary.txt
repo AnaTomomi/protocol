@@ -1,0 +1,123 @@
+
+
+Audio-Visual Attention 1-back test 
+09/12/2020 21:47:05
+Subject:	day11
+
+Block type:	AA1
+aud reverals:	0.13	0.01	0.03	0	0.01	0	0.02	0.01	0.02	0.01	0.02	0	0.02	0	0.01	0	0.01	
+n of reverals:	17
+threshold:	0.0176470588235294
+vis reverals:	0	
+n of reverals:	1
+threshold:	0
+
+Condition 	 Correct 	 RT 
+1	81	22	679	22
+2	100	4	583	4
+3	75	4	660	4
+4	72	22	666	21
+5	50	4	716	4
+6	100	4	774	4
+
+
+Block type:	PP1
+aud reverals:	0	
+n of reverals:	1
+threshold:	0
+vis reverals:	0	
+n of reverals:	1
+threshold:	0
+
+Condition 	 Correct 	 RT 
+1		568	1
+2		
+3		
+4		527	4
+5		
+6		
+
+
+Block type:	CC1
+aud reverals:	0	
+n of reverals:	1
+threshold:	0
+vis reverals:	0	
+n of reverals:	1
+threshold:	0
+
+Condition 	 Correct 	 RT 
+1		294	11
+2		396	2
+3		232	2
+4		259	11
+5		350	2
+6		280	2
+
+
+Block type:	VO1
+aud reverals:	0	
+n of reverals:	1
+threshold:	0
+vis reverals:	24	6	18	3	12	9	0	
+n of reverals:	7
+threshold:	10.2857142857143
+
+Condition 	 Correct 	 RT 
+1		
+2		
+3		
+4	72	22	600	21
+5		
+6	87	8	779	8
+
+
+Block type:	AO1
+aud reverals:	0.13	0.01	0.04	0.01	0.02	0.01	0.02	0.01	0.03	
+n of reverals:	9
+threshold:	0.0311111111111111
+vis reverals:	0	
+n of reverals:	1
+threshold:	0
+
+Condition 	 Correct 	 RT 
+1	72	22	516	21
+2	50	8	496	8
+3		
+4		
+5		
+6		
+
+
+Block type:	DD1
+aud reverals:	0.1	0.01	0.07	0.02	0.07	0	
+n of reverals:	6
+threshold:	0.045
+vis reverals:	24	6	15	6	9	3	9	6	
+n of reverals:	8
+threshold:	9.75
+
+Condition 	 Correct 	 RT 
+1	59	22	843	22
+2	75	4	755	4
+3	50	4	822	4
+4	68	22	788	21
+5	100	4	635	4
+6	100	4	792	4
+
+
+Block type:	VV1
+aud reverals:	0	
+n of reverals:	1
+threshold:	0
+vis reverals:	24	6	15	6	9	3	6	3	9	3	6	0	6	3	9	6	12	
+n of reverals:	17
+threshold:	7.41176470588235
+
+Condition 	 Correct 	 RT 
+1	72	22	812	22
+2	100	4	743	4
+3	50	4	998	4
+4	68	22	727	21
+5	100	4	623	4
+6	100	4	890	4
