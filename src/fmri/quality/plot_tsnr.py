@@ -1,3 +1,12 @@
+###############################################################################
+# This code generates the Supplementary Figure 6 of the paper "Longitudinal   #
+# single-subject neuroimaging study reveals effects of daily environmental,   #
+# physiological and lifestyle factors on functional brain connectivity"       #
+#
+# The figure is plotted in pieces that then are manually put together in e.g. #
+# Illustrator.                                                                #
+###############################################################################
+
 import os
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -8,11 +17,8 @@ import pandas as pd
 
 import nibabel as nib
 
-from nilearn.input_data import NiftiLabelsMasker
-from nilearn import image
 from nilearn.plotting import plot_glass_brain
 
-from itertools import combinations
 
 def symmetrical_colormap(cmap_settings, new_name = None ):
     ''' This function take a colormap and create a new one, as the concatenation of itself by a symmetrical fold.
@@ -35,8 +41,8 @@ def symmetrical_colormap(cmap_settings, new_name = None ):
 
     return mymap
 
-path = '/m/cs/scratch/networks-pm/protocol/data/pilot_iii/fmri/tsnr' 
-savepath = '/m/cs/scratch/networks-pm/protocol/results/pilot_iii'
+path = './data/pilot_iii/fmri/tsnr/' 
+savepath = './results/pilot_iii'
 
 files = os.listdir(path)
 to_plot = {}
@@ -85,7 +91,7 @@ ax = sns.violinplot(data=violin_plot, x="task", y="value", hue="variable", order
 ax.set_ylim((0,450))
 plt.legend(loc='upper center', ncol=3)
 sns.despine()
-plt.savefig(os.path.join(savepath,"violin_tsnr.pdf"))
+plt.savefig(os.path.join(savepath,"SupplementaryFigure6E.pdf"))
 
 ############################### Plot tSNR ####################################
 for key in to_plot.keys():
@@ -96,7 +102,7 @@ for key in to_plot.keys():
         plot_glass_brain(os.path.join(path, data[i]), cmap=mymap, vmin=0, vmax=400, axes=ax, colorbar=False, annotate=False, symmetric_cbar=False, threshold=5)
     fig.suptitle(f'tSNR per task: {key}')
     plt.show()
-    plt.savefig(os.path.join(savepath,f'{key}_tsnr.pdf'))
+    plt.savefig(os.path.join(savepath,f'SupplementaryFigure6_{key}.pdf'))
 
 ############################## Plot colorbar #################################
 fig, ax = plt.subplots(dpi=300)
