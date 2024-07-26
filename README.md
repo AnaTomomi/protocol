@@ -25,4 +25,4 @@ There are four folders in this GIT:
 Each folder has a README file with further explanations
 
 # 3. How to?
-
+- Supplementary Figure 2: 
