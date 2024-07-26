@@ -10,8 +10,8 @@ from sklearn.linear_model import LinearRegression
 
 import matplotlib.transforms as mtransforms
 
-datapath = "/u/68/trianaa1/unix/trianaa1/protocol/"
-os.chdir(datapath)
+datapath = "./data/pilot_ii/"
+savepath = os.path.abspath('./results/pilot_ii/SupplementaryFigure4.pdf')
 
 def get_dual_data(dfs):
     stats_data = []
@@ -57,13 +57,13 @@ def linear(stats, cols):
         print("+++++++++++++++++++++++++++++++++++++++++++++")
 
 twoback = []
-for file in os.listdir(datapath):
+for file in os.listdir(os.path.abspath(datapath)):
     if file.endswith("_2back_OnlyNovels_fMRI_rawdata.txt"):
         twoback.append(file)
 twoback.sort()
 
 oneback = []
-for file in os.listdir(datapath):
+for file in os.listdir(os.path.abspath(datapath)):
     if file.endswith("_OnlyNovels_fMRI_rawdata.txt"):
         if not file.endswith("_2back_OnlyNovels_fMRI_rawdata.txt"):
             oneback.append(file)
@@ -72,7 +72,7 @@ oneback.sort()
 #Organize the data in dictionaries
 days2back = dict()
 for file in twoback:
-    content = pd.read_csv(file, delimiter="\t", header=None, names=range(16))
+    content = pd.read_csv(os.path.join(os.path.abspath(datapath), file), delimiter="\t", header=None, names=range(16))
     #select only those 60 trials of the DD1
     dd1_start_index = content.index[content.apply(lambda row: row.astype(str).str.contains('Block type:').any() and 'DD1' in row.astype(str).values, axis=1)].tolist()
     dd1_start_index = dd1_start_index[0]+1
@@ -87,7 +87,7 @@ for file in twoback:
 
 days1back = dict()
 for file in oneback:
-    content = pd.read_csv(file, delimiter="\t", header=None, names=range(16))
+    content = pd.read_csv(os.path.join(os.path.abspath(datapath), file), delimiter="\t", header=None, names=range(16))
     #select only those 60 trials of the DD1
     dd1_start_index = content.index[content.apply(lambda row: row.astype(str).str.contains('Block type:').any() and 'DD1' in row.astype(str).values, axis=1)].tolist()
     dd1_start_index = dd1_start_index[0]+1
@@ -102,13 +102,13 @@ for file in oneback:
    
 # Get the task difficulty
 d2 = []
-for file in os.listdir(datapath):
+for file in os.listdir(os.path.abspath(datapath)):
     if file.endswith("_2back_OnlyNovels_fMRI_summary.txt"):
         d2.append(file)
 d2.sort()
 
 d1 = []
-for file in os.listdir(datapath):
+for file in os.listdir(os.path.abspath(datapath)):
     if file.endswith("_OnlyNovels_fMRI_summary.txt"):
         if not file.endswith("_2back_OnlyNovels_fMRI_summary.txt"):
             d1.append(file)
@@ -116,14 +116,14 @@ d1.sort()
 
 d2back = []
 for f in d2:
-    with open(f, 'r') as file:
+    with open(os.path.join(os.path.abspath(datapath), f), 'r') as file:
         text_data = file.read()
     d2back.append(extract_thresholds(text_data))
 d2back = pd.concat(d2back, ignore_index=True)
 
 d1back = []
 for f in d1:
-    with open(f, 'r') as file:
+    with open(os.path.join(os.path.abspath(datapath), f), 'r') as file:
         text_data = file.read()
     d1back.append(extract_thresholds(text_data))
 d1back = pd.concat(d1back, ignore_index=True)
@@ -139,7 +139,7 @@ label = ["A", "B", "C", "D"]
 font = {'family' : 'Arial','size': 14}
 matplotlib.rc('font', **font)
 
-fig, axes = plt.subplots(nrows=2, ncols=2, sharex=False, figsize=(6,6))
+fig, axes = plt.subplots(nrows=2, ncols=2, sharex=False, figsize=(12,8))
 axes = axes.flatten()
 trans = mtransforms.ScaledTranslation(-20/72, 7/72, fig.dpi_scale_trans)
 axes[0].text(0.0, 1.0, label[0], transform=axes[0].transAxes + trans, va='bottom')
@@ -169,7 +169,7 @@ axes[3].set_ylabel("Task difficulty d'")
 sns.despine()
 fig.align_ylabels(axes)
 fig.tight_layout()
-plt.savefig('/u/68/trianaa1/unix/trianaa1/protocol/results/pilot_i/nback.pdf')
+plt.savefig(savepath)
 
 ############################## Linear model ##################################
 cols = list(stats.columns)
