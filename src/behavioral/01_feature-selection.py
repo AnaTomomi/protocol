@@ -27,7 +27,7 @@ cmap = 'seismic'
 
 ##############################################################################
 # 1. Correlation between measurements as divided by sleep, ANS, and physical activity
-pilot.drop(columns=['date', 'Bedtime Start', 'Bedtime End', 'HRV Balance Score'], inplace=True)
+pilot.drop(columns=['date', 'Sleep Timing.1', 'Bedtime Start', 'Bedtime End', 'HRV Balance Score'], inplace=True)
 
 corr = pilot.corr(method='pearson')
 upt = corr.where(abs(np.triu(corr.values, k=0)) > 0.5, other=0)
@@ -63,7 +63,7 @@ cmap = mpl.cm.seismic
 norm = mpl.colors.Normalize(vmin=-1, vmax=1)
 fig.colorbar(mpl.cm.ScalarMappable(norm=norm, cmap=cmap),
              cax=ax3, orientation='vertical', label='Correlation coefficient')
-plt.savefig(savepath)
+plt.savefig(os.path.abspath(savepath))
 
 #We see some high correlations between variables. It is worth discarding those 
 #variables that are highly correlated so that it doesn't affect the PCA contribution
