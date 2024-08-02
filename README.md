@@ -25,18 +25,18 @@ There are three folders in this GIT:
 # 3. How to?
 Most of the code in this GIT is dedicated to plot the Supplementary Figures 2-11. Here is the complete list of how to produce the Figures:
 
-- Supplementary Figure 2: Run the script ./src/behavioral/00_learning_PVT.py. Data is located in the ./data/pilot_i/PVT/ folder. 
-- Supplementary Figure 3: Run the script ./src/behavioral/00_missing_data.py. Data is located in the ./data/pilot_iii/behavioral folder. Remember to check the dates in the script, as pilot I was run from 2020-07-06 to 2020-07-20. 
-- Supplementary Figure 4: Run the script ./src/behavioral/00_learning_nback.py. Data is located in the ./data/pilot_ii/ folder.
-- Supplementary Figure 5: Run the script ./src/fmri/preprocessing/plot_preprocess.py. Data is located in the ./data/pilot_iii/fmri folder. MRI data is available on request (see Data availability section, write to researchdata@aalto.fi).
-- Supplementary Figure 6: Run the script ./src/fmri/quality/plot_tsnr.py. Data is located in the ./data/pilot_iii/fmri/tsnr/ folder.
-- Supplementary Figure 7: Run the script ./src/fmri/quality/plot_fd.py. Data is located in the ./data/pilot_iii/fmri/ folder.
-- Supplementary Figure 8: Run the script ./src/behavioral/00_missing_data.py. Data is located in the . /data/pilot_iii
+- Supplementary Figure 2: Run the script ```./src/behavioral/00_learning_PVT.py``` Data is located in the ./data/pilot_i/PVT/ folder. 
+- Supplementary Figure 3: Run the script ```./src/behavioral/00_missing_data.py``` Data is located in the ./data/pilot_iii/behavioral folder. Remember to check the dates in the script, as pilot I was run from 2020-07-06 to 2020-07-20. 
+- Supplementary Figure 4: Run the script ```./src/behavioral/00_learning_nback.py``` Data is located in the ./data/pilot_ii/ folder.
+- Supplementary Figure 5: Run the script ```./src/fmri/preprocessing/plot_preprocess.py``` Data is located in the ./data/pilot_iii/fmri folder. MRI data is available on request (see Data availability section, write to researchdata@aalto.fi).
+- Supplementary Figure 6: Run the script ```./src/fmri/quality/plot_tsnr.py``` Data is located in the ./data/pilot_iii/fmri/tsnr/ folder.
+- Supplementary Figure 7: Run the script ```./src/fmri/quality/plot_fd.py``` Data is located in the ./data/pilot_iii/fmri/ folder.
+- Supplementary Figure 8: Run the script ```./src/behavioral/00_missing_data.py``` Data is located in the . /data/pilot_iii
 /behavioral/ folder. Remember to check the dates in the script, as pilot I was run from 2021-08-02 to 2021-09-07.
-- Supplementary Figure 9: Run the script ./src/behavioral/01_feature-selection.py. Data is located in the ./data/pilot_iii/behavioral/ folder.
-- Supplementary Figure 10: Run the script ./src/behavioral/01_imputation.py. Data is located in the ./data/pilot_iii/behavioral/ folder. 
-- Supplementary Figure 11: Run the script ./src/fmri/analysis/plot_ISC.py. Data is located in the ./data/pilot_iii/fmri/ISC/.
-- Supplementary Figure 12: Run the script ./src/fmri/analysis/plot_ISC.py. Data is located in the ./data/pilot_iii/fmri/ISC/.
+- Supplementary Figure 9: Run the script ```./src/behavioral/01_feature-selection.py``` Data is located in the ./data/pilot_iii/behavioral/ folder.
+- Supplementary Figure 10: Run the script ```./src/behavioral/01_imputation.py``` Data is located in the ./data/pilot_iii/behavioral/ folder. 
+- Supplementary Figure 11: Run the script ```./src/fmri/analysis/plot_ISC.py``` Data is located in the ./data/pilot_iii/fmri/ISC/.
+- Supplementary Figure 12: Run the script ```./src/fmri/analysis/plot_ISC.py``` Data is located in the ./data/pilot_iii/fmri/ISC/.
 
 # 4. Questions?
 If there is something unclear, please write to ana.trianahoyos@aalto.fi
