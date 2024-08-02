@@ -23,7 +23,7 @@ The PVT folder contains the presentation logs for each PVT task. There is one lo
 
 The folder contains the presentation logs for each n-back task. Each task creates a rawdata and a summary file. Both files are needed to understand the subject's learning curve. There are 56 files, i.e., four files per day, two files per task. 
 
-### 3. pilot_iii
+## 3. pilot_iii
 
 The folder contains two subfolders **"behavioral"** and **"fmri"**. 
 
