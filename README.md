@@ -34,4 +34,6 @@ Each folder has a README file with further explanations
 - Supplementary Figure 8: Run the script ./src/behavioral/00_missing_data.py. Data is located in the . /data/pilot_iii
 /behavioral/ folder. Remember to check the dates in the script, as pilot I was run from 2021-08-02 to 2021-09-07.
 - Supplementary Figure 9: Run the script ./src/behavioral/01_feature-selection.py. Data is located in the ./data/pilot_iii/behavioral/ folder.
-- Supplementary Fgiure 10: 
+- Supplementary Figure 10: Run the script ./src/behavioral/01_imputation.py. Data is located in the ./data/pilot_iii/behavioral/ folder. 
+- Supplementary Figure 11: 
+
