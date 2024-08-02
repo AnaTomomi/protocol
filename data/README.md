@@ -5,7 +5,9 @@ Some data may be missing in this folder because it is not yet pseudononymized or
 
 There are three subfolders, one for each pilot:
 
-## 1. pilot_i: contains two subfolders **"behavioral"** and **"PVT"**. 
+## 1. pilot_i
+
+The folder contains two subfolders **"behavioral"** and **"PVT"**. 
 
 The behavioral folder contains the data collected with smartphones and wearables. There are six files, one for each sensor:
 - battery: smartphone battery
@@ -17,9 +19,13 @@ The behavioral folder contains the data collected with smartphones and wearables
 
 The PVT folder contains the presentation logs for each PVT task. There is one log per day (=15).
  
-## 2. pilot_ii: contains the presentation logs for each n-back task. Each task creates a rawdata and a summary file. Both files are needed to understand the subject's learning curve. There are 56 files, i.e., four files per day, two files per task. 
+## 2. pilot_ii
 
-### 3. pilot_iii: contains two subfolders **"behavioral"** and **"fmri"**. 
+The folder contains the presentation logs for each n-back task. Each task creates a rawdata and a summary file. Both files are needed to understand the subject's learning curve. There are 56 files, i.e., four files per day, two files per task. 
+
+### 3. pilot_iii
+
+The folder contains two subfolders **"behavioral"** and **"fmri"**. 
 
 The behavioral folder contains the data collected with smartphones and wearables. There are six files, one for each sensor. See (1.) for a description of each file.
 
